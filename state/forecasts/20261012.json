@@ -36,7 +36,7 @@
   {
    "article": "Below_(miniseries)",
    "method": "formula",
-   "forecast": 147941,
+   "forecast": 147940,
    "guarded": true,
    "naive": 137034,
    "lo": null,
@@ -135,7 +135,7 @@
   {
    "article": "Lizzie_Borden",
    "method": "formula",
-   "forecast": 38830,
+   "forecast": 38849,
    "guarded": false,
    "naive": 84878,
    "lo": null,
@@ -171,7 +171,7 @@
   {
    "article": "Neha_Bora",
    "method": "formula",
-   "forecast": 111106,
+   "forecast": 113428,
    "guarded": true,
    "naive": 77311,
    "lo": null,

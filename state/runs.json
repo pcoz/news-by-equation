@@ -34,16 +34,16 @@
  {
   "date": "20261012",
   "timings": {
-   "fetch": 0.27,
-   "verify": 0.12,
-   "prior": 0.35,
-   "tnn+ppf": 8.61,
-   "score": 0.01,
-   "holant+nrf": 0.56,
-   "nrf-counters": 0.24,
-   "petra": 31.8,
-   "lfc-claims": 0.04,
-   "total": 42.0,
+   "fetch": 166.45,
+   "verify": 0.08,
+   "prior": 0.34,
+   "tnn+ppf": 9.52,
+   "score": 0.08,
+   "holant+nrf": 19.59,
+   "nrf-counters": 0.15,
+   "petra": 7.63,
+   "lfc-claims": 0.02,
+   "total": 203.86,
    "story": 0.0
   },
   "warnings": [
@@ -54,8 +54,8 @@
   ],
   "stories": 24,
   "fetch": {
-   "requests": 0,
-   "cache_hits": 1213,
+   "requests": 773,
+   "cache_hits": 516,
    "errors": 0
   }
  }
