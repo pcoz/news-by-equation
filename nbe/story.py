@@ -149,7 +149,7 @@ def _info(a, s, g, R):
 
 # ----------------------------------------------------------------------------- session 1
 def session_today(R):
-    S = Session("news-by-equation · today's stories")
+    S = Session("wikipedia news today · top stories")
     D = R["date"]
     S.add("cmd", f"nbe run --date {_iso(D)}")
     sk = R.get("skipped", {})
@@ -323,7 +323,7 @@ MOVES = {"co-surge": "attention rose together (co-surge)",
 
 
 def session_connect(R):
-    S = Session("news-by-equation · how stories connect")
+    S = Session("wikipedia news today · how stories connect")
     S.add("cmd", f"nbe connect --date {_iso(R['date'])}")
     net = R.get("net")
     if not net:
@@ -375,7 +375,7 @@ def session_connect(R):
 
 # ----------------------------------------------------------------------------- session 3
 def session_lifecycle(R):
-    S = Session("news-by-equation · story lifecycles")
+    S = Session("wikipedia news today · story lifecycles")
     S.add("cmd", f"nbe lifecycle --date {_iso(R['date'])}")
     P = R.get("petra")
     ids = [a for a in R["stories"] if R.get("gate", {}).get(a, {}).get("status") != "refused"]
@@ -460,7 +460,7 @@ def compose(R):
         try:
             sessions.append(fn(R).doc())
         except Exception as e:      # a broken section must not take the panel down
-            sessions.append({"title": "news-by-equation", "lines": [["warn", f"[story] {fn.__name__} failed"],
+            sessions.append({"title": "wikipedia news today", "lines": [["warn", f"[story] {fn.__name__} failed"],
                                                                      ["dim", f"  {type(e).__name__}"[:46]]]})
     graph = build_graph(R) if R.get("stories") else {"nodes": [], "links": [], "clusters": []}
     return {"generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
