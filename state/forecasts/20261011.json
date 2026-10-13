@@ -1,0 +1,190 @@
+{
+ "issued_by_run": "20261011",
+ "provenance": {
+  "run_date": "20261011",
+  "generator": "nbe.run",
+  "prior_events": 3895
+ },
+ "forecasts": [
+  {
+   "article": "Money_in_the_Bank_(2026)",
+   "method": "prior",
+   "forecast": 166610,
+   "guarded": true,
+   "naive": 248908,
+   "lo": 129217.19920793852,
+   "hi": 216550.51354493515
+  },
+  {
+   "article": "Carrie_(miniseries)",
+   "method": "formula",
+   "forecast": 198409,
+   "guarded": true,
+   "naive": 199079,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Mike_Ditka",
+   "method": "formula",
+   "forecast": 391456,
+   "guarded": false,
+   "naive": 185273,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Below_(miniseries)",
+   "method": "formula",
+   "forecast": 152210,
+   "guarded": true,
+   "naive": 157798,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Christa_Pike",
+   "method": "formula",
+   "forecast": 309398,
+   "guarded": false,
+   "naive": 156076,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Animals_(2026_film)",
+   "method": "formula",
+   "forecast": 117680,
+   "guarded": true,
+   "naive": 117242,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "East_of_Eden_(2026_miniseries)",
+   "method": "formula",
+   "forecast": 100522,
+   "guarded": true,
+   "naive": 115036,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Shane_Gillis",
+   "method": "prior",
+   "forecast": 53306,
+   "guarded": true,
+   "naive": 110192,
+   "lo": 29720.555205047316,
+   "hi": 119438.17382380502
+  },
+  {
+   "article": "East_of_Eden_(novel)",
+   "method": "formula",
+   "forecast": 96832,
+   "guarded": true,
+   "naive": 107957,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Other_Mommy",
+   "method": "formula",
+   "forecast": 132368,
+   "guarded": true,
+   "naive": 101815,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Lizzie_Borden",
+   "method": "formula",
+   "forecast": 47566,
+   "guarded": true,
+   "naive": 100361,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Susan_Dell",
+   "method": "formula",
+   "forecast": 159601,
+   "guarded": false,
+   "naive": 95611,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Digger_(2026_film)",
+   "method": "formula",
+   "forecast": 82438,
+   "guarded": true,
+   "naive": 90480,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Ted_Kaczynski",
+   "method": "formula",
+   "forecast": 61577,
+   "guarded": true,
+   "naive": 90186,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Lewis_Koumas",
+   "method": "prior",
+   "forecast": 44945,
+   "guarded": true,
+   "naive": 89380,
+   "lo": 23528.210079051383,
+   "hi": 103905.6185232993
+  },
+  {
+   "article": "Josh_Hartnett",
+   "method": "formula",
+   "forecast": 76193,
+   "guarded": true,
+   "naive": 77868,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "2026_Formula_One_World_Championship",
+   "method": "prior",
+   "forecast": 53016,
+   "guarded": true,
+   "naive": 77523,
+   "lo": 34853.065931242716,
+   "hi": 92225.45044860932
+  },
+  {
+   "article": "Navi_Pillay",
+   "method": "formula",
+   "forecast": 212798,
+   "guarded": false,
+   "naive": 77054,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Ancient_lake",
+   "method": "prior",
+   "forecast": 23588,
+   "guarded": true,
+   "naive": 65778,
+   "lo": 1170.221499700647,
+   "hi": 43455.23419180235
+  },
+  {
+   "article": "Spider-Man:_Brand_New_Day",
+   "method": "formula",
+   "forecast": 37024,
+   "guarded": false,
+   "naive": 64859,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}

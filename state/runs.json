@@ -1,0 +1,62 @@
+[
+ {
+  "date": "20261011",
+  "timings": {
+   "fetch": 0.29,
+   "verify": 0.14,
+   "prior": 0.36,
+   "tnn+ppf": 26.25,
+   "score": 0.0,
+   "holant+nrf": 2.09,
+   "nrf-counters": 0.7,
+   "petra": 49.58,
+   "lfc-claims": 0.05,
+   "total": 79.46,
+   "story": 0.0
+  },
+  "warnings": [
+   {
+    "stage": "tnn",
+    "error": "Drishyam:_The_Conclusion: only 27 days of history"
+   },
+   {
+    "stage": "tnn",
+    "error": "Katie_Zacharia: only 3 days of history"
+   }
+  ],
+  "stories": 24,
+  "fetch": {
+   "requests": 0,
+   "cache_hits": 2611,
+   "errors": 0
+  }
+ },
+ {
+  "date": "20261012",
+  "timings": {
+   "fetch": 0.27,
+   "verify": 0.12,
+   "prior": 0.35,
+   "tnn+ppf": 8.61,
+   "score": 0.01,
+   "holant+nrf": 0.56,
+   "nrf-counters": 0.24,
+   "petra": 31.8,
+   "lfc-claims": 0.04,
+   "total": 42.0,
+   "story": 0.0
+  },
+  "warnings": [
+   {
+    "stage": "tnn",
+    "error": "Drishyam:_The_Conclusion: only 28 days of history"
+   }
+  ],
+  "stories": 24,
+  "fetch": {
+   "requests": 0,
+   "cache_hits": 1213,
+   "errors": 0
+  }
+ }
+]

@@ -1,0 +1,181 @@
+{
+ "issued_by_run": "20261012",
+ "provenance": {
+  "run_date": "20261012",
+  "generator": "nbe.run",
+  "prior_events": 3905
+ },
+ "forecasts": [
+  {
+   "article": "RJ_Mitte",
+   "method": "prior",
+   "forecast": 503224,
+   "guarded": true,
+   "naive": 1406448,
+   "lo": 27589.178278117364,
+   "hi": 926440.4579681944
+  },
+  {
+   "article": "Selma_Blair",
+   "method": "prior",
+   "forecast": 125565,
+   "guarded": true,
+   "naive": 249706,
+   "lo": 65732.10143208329,
+   "hi": 290287.048321537
+  },
+  {
+   "article": "Carrie_(miniseries)",
+   "method": "formula",
+   "forecast": 195436,
+   "guarded": true,
+   "naive": 189885,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Below_(miniseries)",
+   "method": "formula",
+   "forecast": 147941,
+   "guarded": true,
+   "naive": 137034,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Jennifer_Meyer",
+   "method": "prior",
+   "forecast": 55825,
+   "guarded": true,
+   "naive": 111995,
+   "lo": 40297.23318800409,
+   "hi": 77580.55684383588
+  },
+  {
+   "article": "Ilhan_Omar",
+   "method": "prior",
+   "forecast": 54845,
+   "guarded": true,
+   "naive": 109068,
+   "lo": 28710.83930299817,
+   "hi": 126793.21997202067
+  },
+  {
+   "article": "Jacob_Misiorowski",
+   "method": "prior",
+   "forecast": 54502,
+   "guarded": true,
+   "naive": 108386,
+   "lo": 28531.311005013016,
+   "hi": 126000.38452971938
+  },
+  {
+   "article": "Shane_Gillis",
+   "method": "prior",
+   "forecast": 52795,
+   "guarded": true,
+   "naive": 105916,
+   "lo": 38109.931249972244,
+   "hi": 73369.54559285434
+  },
+  {
+   "article": "Digger_(2026_film)",
+   "method": "formula",
+   "forecast": 94500,
+   "guarded": true,
+   "naive": 104792,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Christa_Pike",
+   "method": "formula",
+   "forecast": 282730,
+   "guarded": false,
+   "naive": 101854,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "East_of_Eden_(2026_miniseries)",
+   "method": "formula",
+   "forecast": 96781,
+   "guarded": true,
+   "naive": 98140,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Animals_(2026_film)",
+   "method": "formula",
+   "forecast": 107106,
+   "guarded": true,
+   "naive": 89895,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Tobey_Maguire",
+   "method": "prior",
+   "forecast": 59924,
+   "guarded": true,
+   "naive": 89533,
+   "lo": 46506.58774859327,
+   "hi": 77889.75447641007
+  },
+  {
+   "article": "East_of_Eden_(novel)",
+   "method": "formula",
+   "forecast": 90696,
+   "guarded": true,
+   "naive": 89222,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Lizzie_Borden",
+   "method": "formula",
+   "forecast": 38830,
+   "guarded": false,
+   "naive": 84878,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Christopher_Columbus",
+   "method": "prior",
+   "forecast": 39825,
+   "guarded": true,
+   "naive": 82583,
+   "lo": 22129.04612382876,
+   "hi": 89090.50255918936
+  },
+  {
+   "article": "Columbus_Day",
+   "method": "prior",
+   "forecast": 39358,
+   "guarded": true,
+   "naive": 81614,
+   "lo": 21869.391646587803,
+   "hi": 88045.14580320018
+  },
+  {
+   "article": "Tyler_Huntley",
+   "method": "prior",
+   "forecast": 40192,
+   "guarded": true,
+   "naive": 79927,
+   "lo": 21039.82151474983,
+   "hi": 92916.36128565387
+  },
+  {
+   "article": "Neha_Bora",
+   "method": "formula",
+   "forecast": 111106,
+   "guarded": true,
+   "naive": 77311,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}

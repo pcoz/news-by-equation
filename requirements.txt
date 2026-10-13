@@ -1,0 +1,24 @@
+# News by Equation nightly run (python -m nbe.run). Python 3.12; tested on Windows,
+# intended for ubuntu-latest on GitHub Actions.
+# CPU-only torch wheels (petra-nn needs torch; the default PyPI wheel on Linux pulls CUDA):
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# the user's analysis libraries (released versions)
+timeseries-formula-finder==0.2.1          # import name: ppf
+petra-nn==0.3.0                           # import name: petri_net_nn
+tnn @ git+https://github.com/pcoz/temporal-neural-networks@628fb87577ba7b0a249f05fac7688c113b85d274   # main; fixes not on PyPI yet
+numeric-rule-finder==0.2.0
+holant-tools==0.7.3
+structural-computing==1.2.3
+llm-feedback-control==0.3.1
+
+# third-party
+torch==2.14.1
+numpy==2.5.4
+scipy==1.18.1
+sympy==1.14.0
+networkx==3.6.1
+requests==2.34.2
+
+# tests
+pytest

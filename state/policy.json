@@ -1,0 +1,7 @@
+{
+ "forecast_guard": {
+  "rule": "formula forecast counts as 'guarded' only if the fit tracks the last 3 days within 25% median relative error (tnn_ppf.TAIL_MAX)",
+  "adopted": "20261013",
+  "note": "chosen after seeing the 2026-10-12 backtest (all fits 25% vs repeat-today 20%); scores of forecasts issued before the adoption date are post-hoc. Forward scores ('since 13 Oct') use only forecasts issued on or after it."
+ }
+}
