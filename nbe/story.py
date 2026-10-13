@@ -2,8 +2,8 @@
 
 Every number printed here comes from the run's results dict `R` (computed this
 run, or loaded from state/ with its provenance). A section whose stage failed
-prints an honest `warn` line instead. Terminal lines are kept <= 46 chars where
-possible (the strip is ~45 characters wide); the validator enforces <= 56.
+prints an honest `warn` line instead. Terminal lines are kept <= 56 chars where
+possible (the panel fits ~62-73 on laptop/desktop); the validator enforces <= 60.
 """
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ import statistics
 from .select import SENSITIVE
 from .util import fmt_views, human_day, label, parse_ymd
 
-MAX_LINE = 46
+MAX_LINE = 56
 LBL = {}          # article -> display label, disambiguated per run (set by compose)
 
 
@@ -74,18 +74,46 @@ def _bucket_text(b):
     return f"≥{lo:.0f}×" if hi > 1e8 else f"{lo:.0f}–{hi:.0f}×"
 
 
-def _bot_reason(gate):
-    """Short reason from the series gate's first bot gap: ('automated 52%', '9 Oct')."""
+
+def _plain_reason(gate):
+    """Why the series gate refused a story, for people: (short, sentence).
+
+    The gate's own reasons are terse ("desktop share 100% vs usual 56%");
+    these say what that means and why it disqualifies the numbers."""
+    import re
     for g in gate.get("gaps", []):
-        if g[0] == "bot" and len(g) >= 3:
-            why = g[2].replace("automated agents ", "automated ").replace(" of all traffic", " of views")
-            why = why.replace("desktop share ", "desktop ")
-            return why, human_day(g[1])
-        if g[0] == "missing":
-            return "days missing", human_day(g[1])
-        if g[0] == "implausible":
-            return "implausible values", human_day(g[1])
-    return None, None
+        kind, day = g[0], human_day(g[1]) if len(g) > 1 else ""
+        text = g[2] if len(g) > 2 else ""
+        m = re.search(r"desktop share (\d+)% vs usual (\d+)%", text)
+        if kind == "bot" and m:
+            now, usual = int(m.group(1)), int(m.group(2))
+            share = "all" if now >= 99 else f"{now}%"
+            return ("looks like bot traffic",
+                    f"From {day}, {share} of the views Wikipedia counted as human came from "
+                    f"desktop computers. Normally it's about {usual}%, with the rest on phones. "
+                    "Real readers don't switch devices overnight, so these are almost "
+                    "certainly automated programs (bots) being counted as people.")
+        m = re.search(r"automated agents (\d+)%", text)
+        if kind == "bot" and m:
+            return ("mostly automated traffic",
+                    f"On {day}, {m.group(1)}% of all traffic to this page came from software "
+                    "Wikipedia itself flags as automated, so its count of human readers "
+                    "can't be trusted either.")
+        if kind == "bot":
+            return ("looks like bot traffic",
+                    "Its daily views stayed almost exactly level for days on end. Real "
+                    "attention rises and falls; flat lines like that come from automated "
+                    "traffic (bots).")
+        if kind == "missing":
+            return ("days of data missing",
+                    f"Wikipedia's view counts are missing for some days (from {day}), so its "
+                    "attention curve can't be analysed reliably.")
+        if kind == "implausible":
+            return ("impossible values",
+                    f"Some of its view counts (from {day}) are impossible, so the data "
+                    "can't be trusted.")
+    return ("failed the data check",
+            "Its page-view data failed the automatic data check, so no claims are made about it.")
 
 
 # ----------------------------------------------------------------------------- graph
@@ -118,6 +146,9 @@ def build_graph(R):
                 info = " · ".join(parts + [f"via {names[0]}"])
         if info:
             node["info"] = info
+        g = gate.get(a)
+        if g and g.get("status") == "refused":
+            node["why"] = _plain_reason(g)[1]
         nodes.append(node)
     ids = {n["id"] for n in nodes}
     links = [{"source": a, "target": b, "weight": round(min(1.0, w / 1000), 2)}
@@ -127,8 +158,7 @@ def build_graph(R):
 
 def _info(a, s, g, R):
     if g and g["status"] == "refused":
-        why, day = _bot_reason(g)
-        return f"refused: {why} ({day})" if why else "refused by the series gate"
+        return "refused: " + _plain_reason(g)[0]
     if not s:
         n = R.get("hist_len", {}).get(a)
         return f"new page: {n} days of views, too new to model" if n else None
@@ -148,81 +178,120 @@ def _info(a, s, g, R):
 
 
 # ----------------------------------------------------------------------------- session 1
+def _gate_detail(g):
+    """One plain line of evidence behind a series-gate refusal, or None."""
+    import re
+    for gp in g.get("gaps", []):
+        day = human_day(gp[1]) if len(gp) > 1 else ""
+        text = gp[2] if len(gp) > 2 else ""
+        m = re.search(r"desktop share (\d+)% vs usual (\d+)%", text)
+        if gp[0] == "bot" and m:
+            now = "all" if int(m.group(1)) >= 99 else f"{m.group(1)}% of"
+            return f"from {day}, {now} views on desktop (usually {m.group(2)}%)"
+        m = re.search(r"automated agents (\d+)%", text)
+        if gp[0] == "bot" and m:
+            return f"on {day}, {m.group(1)}% of traffic was flagged automated"
+        if gp[0] in ("missing", "implausible") and day:
+            return f"the problem starts {day}"
+    return None
+
+
+def _formula_lines(S, s):
+    """The plain reading of a fitted formula: extra views at the peak, how fast
+    they halve, the level they settle at, and how well the curve fits."""
+    import re
+    m = re.match(r"v\(t\) ≈ ([\d.]+[kM]?)·\S+?(?: ([+−]) ([\d.]+[kM]?))?$", s["formula"])
+    if m:
+        S.add("dim", f"[formula]   peak: +{m.group(1)} views, halving every {s['half_life']:.1f} days")
+    else:
+        S.add("dim", f"[formula]   the extra views halve every {s['half_life']:.1f} days")
+    fit = f"fit quality {s['r2']:.0%}"
+    if m and m.group(2) == "+":
+        S.add("dim", f"[formula]   settling at {m.group(3)}/day · {fit}")
+    else:
+        S.add("dim", f"[formula]   {fit}")
+
+
 def session_today(R):
     S = Session("wikipedia news today · top stories")
     D = R["date"]
     S.add("cmd", f"nbe run --date {_iso(D)}")
     sk = R.get("skipped", {})
     n_skip = R.get("junk_today", 0) + len(sk.get("perennial", [])) + len(sk.get("evergreen", []))
-    S.add("out", f"[fetch] top list {human_day(D)}: {len(R['stories'])} stories", {"type": "add", "ids": R["stories"]})
+    S.add("out", f"[fetch] Wikipedia's most-read, {human_day(D)}: {len(R['stories'])} stories",
+          {"type": "add", "ids": R["stories"]})
     parts = [f"{R.get('junk_today', 0)} junk"]
     if sk.get("perennial"):
-        parts.append(f"{len(sk['perennial'])} perennial")
+        parts.append(f"{len(sk['perennial'])} always listed")
     if sk.get("evergreen"):
-        parts.append(f"{len(sk['evergreen'])} evergreen")
-    S.add("dim", f"[fetch]   skipped {n_skip} non-news pages" if len(parts) == 1
-          else f"[fetch]   skipped {n_skip}: " + ", ".join(parts))
+        parts.append(f"{len(sk['evergreen'])} generic")
+    S.add("dim", f"[fetch]   skipped {n_skip} pages that aren't news" if len(parts) == 1
+          else f"[fetch]   skipped {n_skip} non-news: " + ", ".join(parts))
 
     # LFC series gate
     gate = R.get("gate", {})
     if _warn_for(R, "verify") or not gate:
-        S.add("warn", "[verify] series gate failed; unverified data")
+        S.add("warn", "[check] data check failed; views not verified")
     else:
         st = [g["status"] for g in gate.values()]
-        line = f"[verify] series gate: {st.count('accepted')} ok"
+        line = f"[check] view data checked: {st.count('accepted')} passed"
         if st.count("corrected"):
             line += f", {st.count('corrected')} fixed"
         S.add("out", line + f", {st.count('refused')} refused")
         for a, g in gate.items():
             if g["status"] != "refused":
                 continue
-            why, day = _bot_reason(g)
-            S.add("refused", f"[verify] REFUSED {_n(a, 20)}", {"type": "refuse", "id": a})
-            if why:
-                S.add("dim", f"[verify]   {why} on {day}")
+            why = _plain_reason(g)[0]
+            head = f"[check] REFUSED {_n(a, 20)}: {why}"
+            if len(head) <= MAX_LINE:
+                S.add("refused", head, {"type": "refuse", "id": a})
+            else:
+                S.add("refused", f"[check] REFUSED {_n(a, 20)}", {"type": "refuse", "id": a})
+                S.add("dim", f"[check]   {why}")
+            det = _gate_detail(g)
+            if det:
+                S.add("dim", f"[check]   {det}")
         for a, g in gate.items():
             if g["status"] == "corrected":
-                S.add("dim", f"[verify]   {_n(a, 16)}: {g['reason'][:22]}")
+                S.add("dim", f"[check]   fixed {_n(a, 16)}: {g['reason'][:24]}")
                 break
     c = R.get("counters")
     if c and c.get("n_laws"):
-        k = "ok" if not c["breaks_today"] else "warn"
-        tail = "books balance" if not c["breaks_today"] else f"{len(c['breaks_today'])} breaks"
-        S.add(k, f"[nrf] {c['n_counters']} counters obey {c['n_laws']} laws: {tail}")
+        if not c["breaks_today"]:
+            S.add("ok", f"[balance] traffic counts add up ({c['n_counters']} counts, {c['n_laws']} rules)")
+        else:
+            S.add("warn", f"[balance] view counters don't add up: {len(c['breaks_today'])} breaks")
     elif _warn_for(R, "nrf-counters"):
-        S.add("warn", "[nrf] traffic-counter check failed")
+        S.add("warn", "[balance] traffic-counter check failed")
     S.blank()
 
     an = R.get("analysis", {})
     if _warn_for(R, "tnn+ppf"):
-        S.add("warn", "[tnn] analysis stage failed")
+        S.add("warn", "[tnn] jump detection failed")
     fresh = sorted((a for a, s in an.items() if s["fresh"] and s.get("cp") and not SENSITIVE.search(a)),
                    key=lambda a: -an[a]["cp"]["z"])
     for i, a in enumerate(fresh[:2]):
         s = an[a]
         cp = s["cp"]
         if i == 0:
-            S.add("hi", f"[tnn] {_n(a)}: break {human_day(cp['date'])}, {cp['z']:.0f}σ", {"type": "pulse", "id": a})
-            S.add("hi", f"[tnn]   fresh spike: {_x(cp['multiple'])} baseline")
-            S.add("dim", f"[tnn]   ~{fmt_views(cp['baseline'])}/day → {fmt_views(s['naive'])}")
-            if cp.get("edit_z") is not None and cp["edit_z"] >= 3:
-                S.add("dim", f"[tnn]   edits jumped the same day: {cp['edit_z']:.0f}σ")
+            S.add("hi", f"[tnn] {_n(a)}: sudden jump on {human_day(cp['date'])}", {"type": "pulse", "id": a})
+            S.add("hi", f"[tnn]   {cp['z']:.0f}× bigger than its usual day-to-day swings")
+            S.add("dim", f"[tnn]   views {_x(cp['multiple'])} normal: ~{fmt_views(cp['baseline'])}/day → "
+                         f"{fmt_views(s['naive'])}")
         else:
-            S.add("hi", f"[tnn] {_n(a)}: {cp['z']:.0f}σ, {_x(cp['multiple'])} baseline",
+            S.add("hi", f"[tnn] {_n(a)}: {_x(cp['multiple'])} normal views, {cp['z']:.0f}× usual swings",
                   {"type": "pulse", "id": a})
     if fresh:
         top = an[fresh[0]]
         b = top.get("bucket")
-        pr = R.get("prior", {})
         if b and b["half_life_q"][1] is not None:
-            S.add("out", f"[prior] past {_bucket_text(b['bucket'])} spikes halve in ~{b['half_life_q'][1]:.1f} d")
-            S.add("dim", f"[prior]   n={_num(b['n'])} of {_num(pr.get('n_events', 0))} spikes, "
-                         f"{_num(pr.get('n_articles', 0))} pages")
+            S.add("out", f"[history] {_num(b['n'])} past {_bucket_text(b['bucket'])} jumps "
+                         f"typically halved in {b['half_life_q'][1]:.1f} d")
         pf = top.get("prior_forecast")
         if pf:
-            S.add("out", f"[prior] {_n(fresh[0], 14)} tomorrow ~{fmt_views(pf['value'])}")
-            S.add("dim", f"[prior]   IQR {fmt_views(pf['lo'])}–{fmt_views(pf['hi'])}; "
-                         f"repeat-today {fmt_views(top['naive'])}")
+            S.add("out", f"[forecast] {_n(fresh[0], 14)} tomorrow: ~{fmt_views(pf['value'])} views")
+            S.add("dim", f"[forecast]   half of past cases {fmt_views(pf['lo'])}–{fmt_views(pf['hi'])}; "
+                         f"today {fmt_views(top['naive'])}")
     S.blank()
 
     # maturing stories with a clean, compact formula
@@ -233,38 +302,41 @@ def session_today(R):
                  key=lambda a: -R["views_today"].get(a, 0))
     for i, a in enumerate(mat[:2]):
         s = an[a]
-        S.add("out", f"[ppf] {_n(a, 20)}, peak {human_day(s['x1_date'])}", {"type": "curve", "id": a})
-        S.add("hi", f"[ppf] {s['formula']}")
-        if i == 0:
-            S.add("dim", "[ppf]   t = days since the peak")
-        S.add("out", f"[ppf]   half-life {s['half_life']:.1f} d · R² {s['r2']:.2f}")
+        S.add("out", f"[formula] {_n(a, 20)}, t = days since {human_day(s['x1_date'])} peak",
+              {"type": "curve", "id": a})
+        S.add("hi", f"[formula] {s['formula']}")
+        _formula_lines(S, s)
         if s.get("forecast") is not None:
-            S.add("out", f"[score] tomorrow {fmt_views(s['forecast'])} · repeat-today {fmt_views(s['naive'])}")
+            S.add("out", f"[forecast] tomorrow ~{fmt_views(s['forecast'])}; "
+                         f"'same as today' says {fmt_views(s['naive'])}")
     if not mat and not _warn_for(R, "tnn+ppf"):
-        S.add("dim", "[ppf] no maturing story with a clean fit")
+        S.add("dim", "[formula] no fading story with a clean fit")
 
     # honest scorecards: all clean fits AND the guarded subset (guard adopted 13 Oct, post-hoc)
     if _warn_for(R, "score"):
         S.add("warn", "[score] scoring stage failed")
     bt = [b for b in R.get("backtest", []) if b["method"] == "formula"]
-    if bt:
-        S.add("out", f"[score] backtest: refit to {human_day(_prev(R['date']))}, call {human_day(R['date'])}")
-        _score_lines(S, bt, "[score]  ")
     g = R.get("graded") or {}
+    if bt or g.get("rows") or g.get("forward_rows"):
+        S.add("out", "[score] how far off were forecasts? (lower is better)")
+    if bt:
+        S.add("out", f"[score]   backtest: fit to {human_day(_prev(R['date']))} → "
+                     f"predict {human_day(R['date'])}")
+        _score_lines(S, bt, "[score]    ")
     fwd = g.get("forward_rows") or []
     if g.get("rows") and g["rows"][0].get("post_hoc"):
-        S.add("out", f"[score] replayed {human_day(g['issued'])} run, graded today:")
-        _score_lines(S, [r for r in g["rows"] if r["method"] == "formula"], "[score]  ")
+        S.add("out", f"[score]   {human_day(g['issued'])} forecasts, checked against today")
+        _score_lines(S, [r for r in g["rows"] if r["method"] == "formula"], "[score]    ")
         pr = [r for r in g["rows"] if r["method"] == "prior"]
         if pr:
             m = statistics.median(r["ape"] for r in pr)
             nv = statistics.median(r["ape_naive"] for r in pr)
-            S.add("out", f"[score]   prior {m:.0f}% · repeat {nv:.0f}% (n={len(pr)})")
+            S.add("out", f"[score]    {len(pr)} from past jumps: {m:.0f}% · 'same as today' {nv:.0f}%")
     if fwd:
-        S.add("out", f"[score] since {human_day(g['adopted'])}, graded forward:")
-        _score_lines(S, [r for r in fwd if r["method"] == "formula"], "[score]  ")
+        S.add("out", f"[score]   new forecasts since {human_day(g['adopted'])}")
+        _score_lines(S, [r for r in fwd if r["method"] == "formula"], "[score]    ")
     else:
-        S.add("dim", f"[score] forward grading starts {human_day(g.get('adopted') or R['date'])}")
+        S.add("dim", f"[score] scoring of new forecasts starts {human_day(g.get('adopted') or R['date'])}")
     return S
 
 
@@ -275,12 +347,12 @@ def _score_lines(S, rows, pre):
         return
     allm = statistics.median(r["ape"] for r in rows)
     alln = statistics.median(r["ape_naive"] for r in rows)
-    S.add("out", f"{pre} all fits {allm:.0f}% · repeat {alln:.0f}% (n={len(rows)})")
+    S.add("out", f"{pre}all {len(rows)} formulas: {allm:.0f}% · 'same as today' {alln:.0f}%")
     gd = [r for r in rows if r.get("guarded")]
     if gd:
         gm = statistics.median(r["ape"] for r in gd)
         gn = statistics.median(r["ape_naive"] for r in gd)
-        S.add("out", f"{pre} guarded {gm:.0f}% · repeat {gn:.0f}% (n={len(gd)})")
+        S.add("out", f"{pre}{len(gd)} best-fitting: {gm:.0f}% · 'same as today' {gn:.0f}%")
 
 
 def _prev(day):
@@ -316,10 +388,10 @@ def _via(c):
     return " · ".join(names[:2]) if names else None
 
 
-MOVES = {"co-surge": "attention rose together (co-surge)",
-         "co-fade": "attention fell together (co-fade)",
-         "substitution": "one rose as another fell (substitution)",
-         "solo": "one story moved on its own (solo)"}
+MOVES = {"co-surge": "today their views rose together",
+         "co-fade": "today their views fell together",
+         "substitution": "today one rose as another fell",
+         "solo": "today one story moved on its own"}
 
 
 def session_connect(R):
@@ -327,74 +399,78 @@ def session_connect(R):
     S.add("cmd", f"nbe connect --date {_iso(R['date'])}")
     net = R.get("net")
     if not net:
-        S.add("warn", "[holant] link stage failed; no story graph")
+        S.add("warn", "[links] link stage failed; no story map")
         return S
-    S.add("out", f"[holant] {net['n_articles']} stories, {net['n_edges']} link ties",
+    S.add("out", f"[links] {net['n_articles']} stories, {net['n_edges']} links between them",
           {"type": "add", "ids": R["stories"]})
-    S.add("dim", "[holant]   tie = shared links + direct links")
+    S.add("dim", "[links]   (pages that cite each other or the same pages)")
     p = net["pairing"]
-    S.add("out", f"[holant] best pairing: {len(p['pairs'])} pairs, exact")
-    if p.get("verified"):
-        S.add("ok", "[holant]   matches exhaustive search")
-    elif p.get("checked_all"):
-        S.add("warn", "[holant]   exhaustive check disagrees")
-    S.add("out", f"[nrf] {len(net['clusters'])} story clusters")
+    if not p.get("verified") and p.get("checked_all"):
+        S.add("warn", "[links]   pairing check disagrees")
+    S.add("out", f"[clusters] {len(net['clusters'])} groups of related stories")
     S.blank()
     for c in net["clusters"][:4]:
         cid = c.get("id")
         lab = label(c["label"] or "", 18) if c.get("label") else "untitled"
-        S.add("out", f"[nrf] \"{lab}\": {len(c['members'])} stories",
+        S.add("out", f"[clusters] \"{lab}\": {len(c['members'])} stories",
               {"type": "cluster", "id": cid, "label": label(c["label"] or "", 18)})
         via = _via(c)
         if via:
-            S.add("dim", "      via " + via)
+            line = "[clusters]   via " + via
+            S.add("dim", line if len(line) <= MAX_LINE else line.split(" · ")[0])
         for b in c["bridges"][:1]:
-            S.add("hi", f"[holant] bridge: {_n(b, 22)}", {"type": "bridge", "id": b})
+            S.add("hi", f"[links] {_n(b, 22)} holds this group together", {"type": "bridge", "id": b})
         ln = c.get("lineage") or {}
         if ln.get("first"):
             joined = [(d, a) for a, d in ln["joined"].items() if d > ln["first"]]
-            txt = f"[lineage] first seen {human_day(ln['first'])}"
-            S.add("out", txt, {"type": "lineage", "id": cid})
+            S.add("out", f"[history] this story thread began {human_day(ln['first'])}",
+                  {"type": "lineage", "id": cid})
             if joined:
                 d, a = max(joined)
-                who = "joined today" if d == R["date"] else f"joined {human_day(d)}"
-                S.add("dim", f"[lineage]   {_n(a, 16)} {who}")
+                who = "joined today" if d == R["date"] else f"joined on {human_day(d)}"
+                S.add("dim", f"[history]   {_n(a, 16)} {who}")
         else:
-            S.add("dim", "[lineage] new thread today")
+            S.add("dim", "[history] a new story thread today")
         at = c.get("attention")
         if at:
             if at["today_break"]:
-                S.add("out", f"[nrf] {MOVES.get(at['today_kind'], at['today_kind'])}",
+                S.add("out", f"[balance] {MOVES.get(at['today_kind'], at['today_kind'])}",
                       {"type": "balance", "id": cid, "ok": False})
             else:
-                S.add("ok", "[nrf] cluster total held steady today", {"type": "balance", "id": cid, "ok": True})
-            S.add("dim", f"[nrf]   broke on {at['breaks']} of {at['steps']} days")
+                S.add("ok", "[balance] their combined views held steady today",
+                      {"type": "balance", "id": cid, "ok": True})
+            S.add("dim", f"[balance]   combined views held steady "
+                         f"{at['steps'] - at['breaks']} of {at['steps']} days")
         S.blank()
     return S
 
 
 # ----------------------------------------------------------------------------- session 3
+DROPPED = {"perennial": "always listed", "evergreen": "generic", "bot": "bot-like"}
+
+
 def session_lifecycle(R):
     S = Session("wikipedia news today · story lifecycles")
     S.add("cmd", f"nbe lifecycle --date {_iso(R['date'])}")
     P = R.get("petra")
     ids = [a for a in R["stories"] if R.get("gate", {}).get(a, {}).get("status") != "refused"]
     if not P:
-        S.add("warn", "[petra] life-cycle stage failed", {"type": "add", "ids": ids})
+        S.add("warn", "[lifecycle] life-cycle stage failed", {"type": "add", "ids": ids})
     else:
-        S.add("out", f"[petra] {P['cases']['days']} days of top-100 lists", {"type": "add", "ids": ids})
+        S.add("out", f"[lifecycle] {P['cases']['days']} days of Wikipedia top-100 lists",
+              {"type": "add", "ids": ids})
         d = P["gate"]["dropped"]
-        S.add("dim", f"[lfc] log gate dropped {sum(d.values())} non-stories")
-        S.add("dim", "[lfc]   " + ", ".join(f"{v} {k}" for k, v in d.items()))
-        S.add("out", f"[petra] {_num(P['cases']['train'])} finished stories → net")
+        S.add("dim", f"[check] set aside {sum(d.values())} non-stories from the lists")
+        S.add("dim", "[check]   " + ", ".join(f"{v} {DROPPED.get(k, k)}" for k, v in d.items()))
+        S.add("out", f"[lifecycle] learned from {_num(P['cases']['train'])} past stories")
         n = P["net"]
         S.add("ok" if n["sound"] else "warn",
-              f"[petra] {n['places']} states, {n['transitions']} moves, " + ("sound" if n["sound"] else "NOT sound"))
-        S.add("dim", f"[petra]   {P['steps']} replay steps, NLL {P['loss'][0]:.2f}→{P['loss'][1]:.2f}")
+              f"[lifecycle] model: {n['places']} stages, {n['transitions']} steps, "
+              + ("no dead ends" if n["sound"] else "has dead ends"))
         r0 = next((r for r in P["rules"] if r["state"] == "ENTER"), None)
         if r0:
-            S.add("out", f"[petra] after entry: {r0['p_exit']:.0%} gone next day")
-            S.add("dim", f"[petra]   counts say {r0['emp_exit']:.0%} (n={_num(r0['support'])})")
+            S.add("out", f"[lifecycle] new entries: {r0['p_exit']:.0%} gone the next day")
+            S.add("dim", f"[lifecycle]   raw counts say {r0['emp_exit']:.0%} (of {_num(r0['support'])})")
         S.blank()
         live = {a: v for a, v in P["today"].items() if a in ids and v.get("p_last_day") is not None}
         order = sorted(live, key=lambda a: -live[a]["p_last_day"])
@@ -402,18 +478,20 @@ def session_lifecycle(R):
         if order:
             pick = [order[0], order[len(order) // 3], order[2 * len(order) // 3], order[-1]]
             pick = list(dict.fromkeys(pick))
+        if pick:
+            S.add("out", "[lifecycle] chance of dropping out of top 100 tomorrow:")
         for a in pick:
             v = live[a]
-            S.add("hi", f"[petra] {_n(a, 17)} P(last day) {v['p_last_day']:.2f}", {"type": "focus", "id": a})
+            S.add("hi", f"[lifecycle]   {_n(a, 22)}: {v['p_last_day']:.0%}", {"type": "focus", "id": a})
             if v["count_n"]:
-                S.add("dim", f"[petra]   day {v['days']}; counts {v['count_p']:.2f} (n={_num(v['count_n'])})")
+                S.add("dim", f"[lifecycle]     day {v['days']}; past: "
+                             f"{v['count_p']:.0%} of {_num(v['count_n'])} dropped out")
         S.blank()
     C = R.get("claims")
     if not C:
-        S.add("warn", "[lfc] claim gate failed")
+        S.add("warn", "[check] claim check failed")
         return S
-    S.add("out", "[lfc] gate decay claims: v = A·2^(−t/h)")
-    shown = 0
+    S.add("out", "[check] testing claims 'views halve every h days'")
     soon = [a for a, c in C.items() if c["status"] == "refused" and c["gaps"] and c["gaps"][0][0] == "insufficient_data"]
     poor = [a for a, c in C.items() if c["status"] == "refused" and any(g[0] == "poor_fit" for g in c["gaps"])]
     series = [a for a, c in C.items() if c["status"] == "refused" and c["stage"] == "series"]
@@ -424,28 +502,29 @@ def session_lifecycle(R):
         a = max(soon, key=lambda a: R["views_today"].get(a, 0))
         g = C[a]["gaps"][0]
         ago = (parse_ymd(R["date"]) - parse_ymd(g[2])).days
-        S.add("refused", f"[lfc] REFUSED {_n(a, 18)}: too soon", {"type": "focus", "id": a})
-        S.add("dim", f"[lfc]   peak {ago} day{'s' if ago != 1 else ''} ago; need 5 days of decay"
-              if ago else "[lfc]   peak is today; need 5 days of decay")
-        shown += 1
+        S.add("refused", f"[check] REFUSED {_n(a, 18)}: too soon", {"type": "focus", "id": a})
+        S.add("dim", f"[check]   peaked {ago} day{'s' if ago != 1 else ''} ago; needs 5 days of decline"
+              if ago else "[check]   peaked today; needs 5 days of decline")
     if poor:
         a = poor[0]
         g = next(g for g in C[a]["gaps"] if g[0] == "poor_fit")
-        S.add("refused", f"[lfc] REFUSED {_n(a, 18)}: no clean fit", {"type": "focus", "id": a})
-        S.add("dim", f"[lfc]   R² {g[1]:.2f} < 0.5 on the raw views")
+        S.add("refused", f"[check] REFUSED {_n(a, 18)}: poor fit", {"type": "focus", "id": a})
+        S.add("dim", f"[check]   curve fits real views {max(g[1], 0):.0%} (needs 50%)")
     if series:
-        S.add("refused", f"[lfc] REFUSED {_n(series[0], 16)}: bad input")
-        S.add("dim", "[lfc]   series gate failed; claim not checked")
+        S.add("refused", f"[check] REFUSED {_n(series[0], 16)}: bad input")
+        S.add("dim", "[check]   failed the data check, so not tested")
     if corr:
         a = corr[0]
-        S.add("ok", f"[lfc] CORRECTED {_n(a, 18)}", {"type": "focus", "id": a})
-        S.add("dim", f"[lfc]   claimed {C[a]['claim']['r2']:.2f}, data say {C[a]['final']['r2']:.2f} (R²)")
+        S.add("ok", f"[check] CORRECTED {_n(a, 18)}", {"type": "focus", "id": a})
+        S.add("dim", f"[check]   claimed fit {C[a]['claim']['r2']:.0%}; on real views "
+                     f"{C[a]['final']['r2']:.0%}, fixed")
     if acc:
         a = acc[0]
         cl = C[a]["final"]
-        S.add("ok", f"[lfc] ACCEPTED {_n(a, 18)}: t½ {cl['half_life']:.1f} d", {"type": "focus", "id": a})
+        S.add("ok", f"[check] ACCEPTED {_n(a, 18)}: halves every {cl['half_life']:.1f} d",
+              {"type": "focus", "id": a})
     st = [c["status"] for c in C.values()]
-    S.add("dim", f"[lfc] {st.count('refused')} refused, {st.count('corrected')} corrected, "
+    S.add("dim", f"[check] all {len(st)}: {st.count('refused')} refused, {st.count('corrected')} corrected, "
                  f"{st.count('accepted')} accepted")
     return S
 
@@ -461,7 +540,7 @@ def compose(R):
             sessions.append(fn(R).doc())
         except Exception as e:      # a broken section must not take the panel down
             sessions.append({"title": "wikipedia news today", "lines": [["warn", f"[story] {fn.__name__} failed"],
-                                                                     ["dim", f"  {type(e).__name__}"[:46]]]})
+                                                                     ["dim", f"  {type(e).__name__}"[:MAX_LINE]]]})
     graph = build_graph(R) if R.get("stories") else {"nodes": [], "links": [], "clusters": []}
     return {"generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
             "date": _iso(R["date"]), "graph": graph, "sessions": sessions}

@@ -12,7 +12,8 @@ import sys
 KINDS = {"cmd", "out", "dim", "ok", "warn", "refused", "hi", "blank"}
 EVENTS = {"add": {"ids"}, "cluster": {"id"}, "bridge": {"id"}, "pulse": {"id"}, "curve": {"id"},
           "refuse": {"id"}, "balance": {"id", "ok"}, "lineage": {"id"}, "focus": {"id"}}
-SOFT_MAX, HARD_MAX = 46, 56
+SOFT_MAX, HARD_MAX = 56, 60
+MAX_SESSION_LINES = 35
 
 
 def validate(doc):
@@ -72,6 +73,8 @@ def validate(doc):
         if not isinstance(lines, list) or not lines:
             E.append(f"session {si}: no lines")
             continue
+        if len(lines) > MAX_SESSION_LINES:
+            Wn.append(f"session {si}: {len(lines)} lines > {MAX_SESSION_LINES}")
         for li, l in enumerate(lines):
             where = f"session {si} line {li}"
             if not isinstance(l, list) or len(l) not in (2, 3):

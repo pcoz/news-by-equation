@@ -21,7 +21,7 @@ def test_published_file_is_valid():
 def test_validator_rejects_bad_events_and_long_lines():
     doc = {"generated": "x", "date": "2026-10-12",
            "graph": {"nodes": [{"id": "A", "label": "A", "views": 1}], "links": [], "clusters": []},
-           "sessions": [{"title": "t", "lines": [["out", "x" * 60], ["hi", "y", {"type": "pulse", "id": "B"}],
+           "sessions": [{"title": "t", "lines": [["out", "x" * 61], ["hi", "y", {"type": "pulse", "id": "B"}],
                                                  ["nope", "z"]]}]}
     errors, _ = validate(doc)
     assert any("chars" in e for e in errors)
