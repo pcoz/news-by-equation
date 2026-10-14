@@ -1,0 +1,217 @@
+{
+ "issued_by_run": "20261013",
+ "provenance": {
+  "run_date": "20261013",
+  "generator": "nbe.run",
+  "prior_events": 3925
+ },
+ "forecasts": [
+  {
+   "article": "RJ_Mitte",
+   "method": "prior",
+   "forecast": 704490,
+   "guarded": true,
+   "naive": 2140567,
+   "lo": 575325.4580457435,
+   "hi": 900140.0632952028
+  },
+  {
+   "article": "Selma_Blair",
+   "method": "prior",
+   "forecast": 172691,
+   "guarded": true,
+   "naive": 419767,
+   "lo": 115896.9385280828,
+   "hi": 245857.69923506302
+  },
+  {
+   "article": "Kimberly_Guilfoyle",
+   "method": "formula",
+   "forecast": 555577,
+   "guarded": false,
+   "naive": 355428,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Hailee_Steinfeld",
+   "method": "prior",
+   "forecast": 88229,
+   "guarded": true,
+   "naive": 183650,
+   "lo": 49303.92009404201,
+   "hi": 197330.19970525306
+  },
+  {
+   "article": "Daniel_and_Luis_Moncada",
+   "method": "prior",
+   "forecast": 104643,
+   "guarded": true,
+   "naive": 156348,
+   "lo": 81283.80246913582,
+   "hi": 135841.92188384986
+  },
+  {
+   "article": "Carrie_(miniseries)",
+   "method": "formula",
+   "forecast": 184269,
+   "guarded": true,
+   "naive": 147042,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Harrison_Mevis",
+   "method": "prior",
+   "forecast": 48685,
+   "guarded": true,
+   "naive": 136069,
+   "lo": 2669.1579774902107,
+   "hi": 89629.9235202967
+  },
+  {
+   "article": "Luis_Moncada",
+   "method": "prior",
+   "forecast": 90151,
+   "guarded": true,
+   "naive": 134696,
+   "lo": 70027.13854595336,
+   "hi": 117029.72542064522
+  },
+  {
+   "article": "Unparliamentary_language",
+   "method": "prior",
+   "forecast": 43881,
+   "guarded": true,
+   "naive": 122643,
+   "lo": 2405.790751995913,
+   "hi": 80786.09169097846
+  },
+  {
+   "article": "Josh_Allen",
+   "method": "prior",
+   "forecast": 57717,
+   "guarded": true,
+   "naive": 120138,
+   "lo": 32253.059364323548,
+   "hi": 129087.15236694633
+  },
+  {
+   "article": "Beauty_Revealed",
+   "method": "prior",
+   "forecast": 57392,
+   "guarded": true,
+   "naive": 115034,
+   "lo": 41406.72010573148,
+   "hi": 79602.74196568392
+  },
+  {
+   "article": "Nidal_Hasan",
+   "method": "formula",
+   "forecast": 88011,
+   "guarded": true,
+   "naive": 114163,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Christa_Pike",
+   "method": "formula",
+   "forecast": 154685,
+   "guarded": false,
+   "naive": 105433,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Below_(miniseries)",
+   "method": "formula",
+   "forecast": 139103,
+   "guarded": true,
+   "naive": 104201,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Shane_Gillis",
+   "method": "formula",
+   "forecast": 106664,
+   "guarded": true,
+   "naive": 103877,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Ilhan_Omar",
+   "method": "prior",
+   "forecast": 41470,
+   "guarded": true,
+   "naive": 100803,
+   "lo": 27831.532956250325,
+   "hi": 59040.35728390287
+  },
+  {
+   "article": "East_of_Eden_(2026_miniseries)",
+   "method": "formula",
+   "forecast": 86947,
+   "guarded": true,
+   "naive": 81492,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Digger_(2026_film)",
+   "method": "formula",
+   "forecast": 89224,
+   "guarded": true,
+   "naive": 81273,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Walter_White_Jr.",
+   "method": "prior",
+   "forecast": 32990,
+   "guarded": true,
+   "naive": 80191,
+   "lo": 22140.59561019682,
+   "hi": 46967.90066717712
+  },
+  {
+   "article": "Josie_Totah",
+   "method": "formula",
+   "forecast": 96553,
+   "guarded": true,
+   "naive": 77855,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Matthew_Stafford",
+   "method": "prior",
+   "forecast": 36938,
+   "guarded": true,
+   "naive": 76886,
+   "lo": 20641.33515028867,
+   "hi": 82613.28469664083
+  },
+  {
+   "article": "Neha_Bora",
+   "method": "formula",
+   "forecast": 86077,
+   "guarded": true,
+   "naive": 76007,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Cerebral_palsy",
+   "method": "prior",
+   "forecast": 37421,
+   "guarded": true,
+   "naive": 75006,
+   "lo": 26998.560845058815,
+   "hi": 51903.63947944163
+  }
+ ]
+}
