@@ -1,0 +1,190 @@
+{
+ "issued_by_run": "20261014",
+ "provenance": {
+  "run_date": "20261014",
+  "generator": "nbe.run",
+  "prior_events": 3933
+ },
+ "forecasts": [
+  {
+   "article": "RJ_Mitte",
+   "method": "formula",
+   "forecast": 1318808,
+   "guarded": false,
+   "naive": 409408,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Kimberly_Guilfoyle",
+   "method": "formula",
+   "forecast": 398123,
+   "guarded": false,
+   "naive": 230773,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "VisionQuest",
+   "method": "prior",
+   "forecast": 75032,
+   "guarded": true,
+   "naive": 156179,
+   "lo": 42130.1527699501,
+   "hi": 166551.72185624
+  },
+  {
+   "article": "Dancing_with_the_Stars_(American_TV_series)_season_35",
+   "method": "prior",
+   "forecast": 88493,
+   "guarded": true,
+   "naive": 129908,
+   "lo": 58290.102482408394,
+   "hi": 154331.1526243039
+  },
+  {
+   "article": "Selma_Blair",
+   "method": "formula",
+   "forecast": 267004,
+   "guarded": false,
+   "naive": 114269,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Karoline_Leavitt",
+   "method": "prior",
+   "forecast": 55766,
+   "guarded": true,
+   "naive": 111774,
+   "lo": 40217.37745877236,
+   "hi": 77295.83129328101
+  },
+  {
+   "article": "Ilhan_Omar",
+   "method": "formula",
+   "forecast": 99158,
+   "guarded": true,
+   "naive": 87603,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Christopher_Coke",
+   "method": "prior",
+   "forecast": 29714,
+   "guarded": true,
+   "naive": 83046,
+   "lo": 1629.0477140175353,
+   "hi": 54703.177275254166
+  },
+  {
+   "article": "Unparliamentary_language",
+   "method": "prior",
+   "forecast": 27267,
+   "guarded": true,
+   "naive": 82850,
+   "lo": 22267.79829787615,
+   "hi": 34839.649608728694
+  },
+  {
+   "article": "Nidal_Hasan",
+   "method": "formula",
+   "forecast": 80455,
+   "guarded": true,
+   "naive": 81605,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Narnia:_The_Magician's_Nephew",
+   "method": "prior",
+   "forecast": 38938,
+   "guarded": true,
+   "naive": 78046,
+   "lo": 28081.71346777737,
+   "hi": 53971.679005094295
+  },
+  {
+   "article": "Pope_Leo_XIV",
+   "method": "prior",
+   "forecast": 50313,
+   "guarded": true,
+   "naive": 75186,
+   "lo": 39083.7410945267,
+   "hi": 65318.88608812788
+  },
+  {
+   "article": "Russell_Brand",
+   "method": "prior",
+   "forecast": 36105,
+   "guarded": true,
+   "naive": 75152,
+   "lo": 20272.66944318564,
+   "hi": 80143.26510568097
+  },
+  {
+   "article": "Josie_Totah",
+   "method": "formula",
+   "forecast": 83662,
+   "guarded": true,
+   "naive": 67097,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Magician's_Nephew",
+   "method": "prior",
+   "forecast": 27352,
+   "guarded": true,
+   "naive": 66934,
+   "lo": 18502.099658670897,
+   "hi": 39194.73036917017
+  },
+  {
+   "article": "Digger_(2026_film)",
+   "method": "formula",
+   "forecast": 71801,
+   "guarded": true,
+   "naive": 64341,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Drishyam:_The_Conclusion",
+   "method": "formula",
+   "forecast": 72186,
+   "guarded": true,
+   "naive": 64180,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Lizzie_Borden",
+   "method": "formula",
+   "forecast": 27707,
+   "guarded": false,
+   "naive": 64044,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Christa_Pike",
+   "method": "formula",
+   "forecast": 132413,
+   "guarded": false,
+   "naive": 62864,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Street_Fighter_(2026_film)",
+   "method": "formula",
+   "forecast": 61500,
+   "guarded": true,
+   "naive": 61692,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}
