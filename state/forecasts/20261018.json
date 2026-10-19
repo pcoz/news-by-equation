@@ -1,0 +1,154 @@
+{
+ "issued_by_run": "20261018",
+ "provenance": {
+  "run_date": "20261018",
+  "generator": "nbe.run",
+  "prior_events": 3941
+ },
+ "forecasts": [
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 353247,
+   "guarded": true,
+   "naive": 340362,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 232162,
+   "guarded": true,
+   "naive": 239333,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Street_Fighter_(2026_film)",
+   "method": "formula",
+   "forecast": 214327,
+   "guarded": true,
+   "naive": 181850,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Bear_Bachmeier",
+   "method": "prior",
+   "forecast": 62306,
+   "guarded": true,
+   "naive": 124883,
+   "lo": 44934.12376030086,
+   "hi": 86361.18685381942
+  },
+  {
+   "article": "Kaviya_Maran",
+   "method": "prior",
+   "forecast": 37676,
+   "guarded": true,
+   "naive": 114477,
+   "lo": 30768.264885286273,
+   "hi": 48139.2705885146
+  },
+  {
+   "article": "Crystal_Lake_(TV_series)",
+   "method": "formula",
+   "forecast": 118746,
+   "guarded": true,
+   "naive": 103624,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Love_of_Your_Life_(film)",
+   "method": "formula",
+   "forecast": 124704,
+   "guarded": true,
+   "naive": 97766,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Deva_(composer)",
+   "method": "prior",
+   "forecast": 29012,
+   "guarded": true,
+   "naive": 88151,
+   "lo": 23692.561107496444,
+   "hi": 37068.79846299388
+  },
+  {
+   "article": "Carrie_(miniseries)",
+   "method": "formula",
+   "forecast": 71895,
+   "guarded": true,
+   "naive": 88131,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Call_of_Duty:_Modern_Warfare_4",
+   "method": "formula",
+   "forecast": 90934,
+   "guarded": true,
+   "naive": 86806,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Anirudh_Ravichander",
+   "method": "prior",
+   "forecast": 34928,
+   "guarded": true,
+   "naive": 85472,
+   "lo": 23626.429946304102,
+   "hi": 50050.0790945366
+  },
+  {
+   "article": "Tenzing_Norgay",
+   "method": "formula",
+   "forecast": 80025,
+   "guarded": true,
+   "naive": 79866,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Below_(miniseries)",
+   "method": "formula",
+   "forecast": 65253,
+   "guarded": true,
+   "naive": 78325,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Whalefall_(film)",
+   "method": "formula",
+   "forecast": 61265,
+   "guarded": false,
+   "naive": 75506,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Lizzie_Borden",
+   "method": "formula",
+   "forecast": 63800,
+   "guarded": true,
+   "naive": 72864,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Kalani_Sitake",
+   "method": "prior",
+   "forecast": 34362,
+   "guarded": true,
+   "naive": 68873,
+   "lo": 24781.178428955114,
+   "hi": 47628.21218406913
+  }
+ ]
+}

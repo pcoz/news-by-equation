@@ -114,5 +114,37 @@
    "cache_hits": 1069,
    "errors": 0
   }
+ },
+ {
+  "date": "20261018",
+  "timings": {
+   "fetch": 109.43,
+   "verify": 0.13,
+   "prior": 0.42,
+   "tnn+ppf": 13.13,
+   "score": 0.0,
+   "holant+nrf": 15.61,
+   "nrf-counters": 0.19,
+   "petra": 10.42,
+   "lfc-claims": 0.03,
+   "total": 149.37,
+   "story": 0.0
+  },
+  "warnings": [
+   {
+    "stage": "tnn",
+    "error": "Katie_Zacharia: only 10 days of history"
+   },
+   {
+    "stage": "tnn",
+    "error": "2026_French_student_protests: only 5 days of history"
+   }
+  ],
+  "stories": 24,
+  "fetch": {
+   "requests": 492,
+   "cache_hits": 926,
+   "errors": 0
+  }
  }
 ]
