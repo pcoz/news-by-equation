@@ -1,0 +1,172 @@
+{
+ "issued_by_run": "20261019",
+ "provenance": {
+  "run_date": "20261019",
+  "generator": "nbe.run",
+  "prior_events": 3941
+ },
+ "forecasts": [
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 290137,
+   "guarded": true,
+   "naive": 321853,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 246531,
+   "guarded": true,
+   "naive": 268900,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Helen_Haines",
+   "method": "prior",
+   "forecast": 78821,
+   "guarded": true,
+   "naive": 220295,
+   "lo": 4321.352818431868,
+   "hi": 145110.3778370074
+  },
+  {
+   "article": "Kim_Jong_Un",
+   "method": "prior",
+   "forecast": 91981,
+   "guarded": true,
+   "naive": 191702,
+   "lo": 51368.71268941818,
+   "hi": 204334.96187513552
+  },
+  {
+   "article": "Street_Fighter_(2026_film)",
+   "method": "formula",
+   "forecast": 175988,
+   "guarded": true,
+   "naive": 153073,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Barbara_Palvin",
+   "method": "prior",
+   "forecast": 73860,
+   "guarded": true,
+   "naive": 146026,
+   "lo": 38444.55065265593,
+   "hi": 167947.22825061978
+  },
+  {
+   "article": "Lawrence_Bishnoi",
+   "method": "prior",
+   "forecast": 67725,
+   "guarded": true,
+   "naive": 135745,
+   "lo": 48842.37750408015,
+   "hi": 93872.65928486438
+  },
+  {
+   "article": "Nathan_Fielder",
+   "method": "formula",
+   "forecast": 103465,
+   "guarded": true,
+   "naive": 115086,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Dylan_Sprouse",
+   "method": "prior",
+   "forecast": 49750,
+   "guarded": true,
+   "naive": 103687,
+   "lo": 27784.100909889843,
+   "hi": 110519.86516545042
+  },
+  {
+   "article": "Crystal_Lake_(TV_series)",
+   "method": "formula",
+   "forecast": 113872,
+   "guarded": true,
+   "naive": 100406,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Richard_Riehle",
+   "method": "prior",
+   "forecast": 34980,
+   "guarded": true,
+   "naive": 97764,
+   "lo": 1917.7590818728215,
+   "hi": 64398.061594031606
+  },
+  {
+   "article": "Tiger_Shroff",
+   "method": "prior",
+   "forecast": 38502,
+   "guarded": true,
+   "naive": 77172,
+   "lo": 27767.239727024,
+   "hi": 53367.27586527352
+  },
+  {
+   "article": "Carrie_(miniseries)",
+   "method": "formula",
+   "forecast": 68708,
+   "guarded": true,
+   "naive": 74366,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Call_of_Duty:_Modern_Warfare_4",
+   "method": "formula",
+   "forecast": 84801,
+   "guarded": true,
+   "naive": 72542,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Osiris",
+   "method": "prior",
+   "forecast": 31303,
+   "guarded": true,
+   "naive": 65240,
+   "lo": 17481.793699896934,
+   "hi": 69539.24796159581
+  },
+  {
+   "article": "The_Diplomat_(American_TV_series)",
+   "method": "formula",
+   "forecast": 65655,
+   "guarded": true,
+   "naive": 61369,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Aberfan_disaster",
+   "method": "prior",
+   "forecast": 28816,
+   "guarded": true,
+   "naive": 60056,
+   "lo": 16092.682440849328,
+   "hi": 64013.627767958285
+  },
+  {
+   "article": "Whalefall_(film)",
+   "method": "formula",
+   "forecast": 64061,
+   "guarded": true,
+   "naive": 59046,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}

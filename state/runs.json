@@ -146,5 +146,41 @@
    "cache_hits": 926,
    "errors": 0
   }
+ },
+ {
+  "date": "20261019",
+  "timings": {
+   "fetch": 113.08,
+   "verify": 0.09,
+   "prior": 0.34,
+   "tnn+ppf": 9.06,
+   "score": 0.08,
+   "holant+nrf": 6.61,
+   "nrf-counters": 0.16,
+   "petra": 7.68,
+   "lfc-claims": 0.02,
+   "total": 137.13,
+   "story": 0.0
+  },
+  "warnings": [
+   {
+    "stage": "tnn",
+    "error": "2026_French_student_protests: only 6 days of history"
+   },
+   {
+    "stage": "tnn",
+    "error": "Presley_Gerber: only 29 days of history"
+   },
+   {
+    "stage": "tnn",
+    "error": "Katie_Zacharia: only 11 days of history"
+   }
+  ],
+  "stories": 24,
+  "fetch": {
+   "requests": 450,
+   "cache_hits": 1044,
+   "errors": 0
+  }
  }
 ]
