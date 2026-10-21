@@ -182,5 +182,33 @@
    "cache_hits": 1044,
    "errors": 0
   }
+ },
+ {
+  "date": "20261020",
+  "timings": {
+   "fetch": 83.79,
+   "verify": 0.12,
+   "prior": 0.41,
+   "tnn+ppf": 10.36,
+   "score": 0.02,
+   "holant+nrf": 30.66,
+   "nrf-counters": 0.21,
+   "petra": 10.54,
+   "lfc-claims": 0.03,
+   "total": 136.16,
+   "story": 0.0
+  },
+  "warnings": [
+   {
+    "stage": "tnn",
+    "error": "2026_French_student_protests: only 7 days of history"
+   }
+  ],
+  "stories": 24,
+  "fetch": {
+   "requests": 448,
+   "cache_hits": 1068,
+   "errors": 0
+  }
  }
 ]

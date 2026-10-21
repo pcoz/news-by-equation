@@ -1,0 +1,181 @@
+{
+ "issued_by_run": "20261020",
+ "provenance": {
+  "run_date": "20261020",
+  "generator": "nbe.run",
+  "prior_events": 3941
+ },
+ "forecasts": [
+  {
+   "article": "Kim_Jong_Un",
+   "method": "prior",
+   "forecast": 160520,
+   "guarded": true,
+   "naive": 321739,
+   "lo": 115764.83624284682,
+   "hi": 222494.34988878397
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 298192,
+   "guarded": true,
+   "naive": 303129,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Helen_Haines",
+   "method": "prior",
+   "forecast": 52304,
+   "guarded": true,
+   "naive": 158924,
+   "lo": 42714.39440786565,
+   "hi": 66829.89106116595
+  },
+  {
+   "article": "Luke_McCaffrey",
+   "method": "prior",
+   "forecast": 50882,
+   "guarded": true,
+   "naive": 142208,
+   "lo": 2789.5818861234216,
+   "hi": 93673.7402639422
+  },
+  {
+   "article": "Hunter_Schafer",
+   "method": "prior",
+   "forecast": 78863,
+   "guarded": true,
+   "naive": 117851,
+   "lo": 61262.17609303681,
+   "hi": 102384.69986928364
+  },
+  {
+   "article": "Barbara_Palvin",
+   "method": "prior",
+   "forecast": 42504,
+   "guarded": true,
+   "naive": 104012,
+   "lo": 28751.313080014304,
+   "hi": 60906.59896552018
+  },
+  {
+   "article": "Richard_Riehle",
+   "method": "prior",
+   "forecast": 33480,
+   "guarded": true,
+   "naive": 101727,
+   "lo": 27341.416022305937,
+   "hi": 42777.707130321585
+  },
+  {
+   "article": "Nathan_Fielder",
+   "method": "formula",
+   "forecast": 115714,
+   "guarded": true,
+   "naive": 98444,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Christian_McCaffrey",
+   "method": "prior",
+   "forecast": 43169,
+   "guarded": true,
+   "naive": 89970,
+   "lo": 24108.476075716233,
+   "hi": 95898.92917082734
+  },
+  {
+   "article": "Dylan_Sprouse",
+   "method": "prior",
+   "forecast": 40949,
+   "guarded": true,
+   "naive": 82077,
+   "lo": 29532.106658826375,
+   "hi": 56759.26373806633
+  },
+  {
+   "article": "Crystal_Lake_(TV_series)",
+   "method": "formula",
+   "forecast": 69213,
+   "guarded": true,
+   "naive": 79856,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "2026_Alberta_independence_referendum",
+   "method": "prior",
+   "forecast": 52244,
+   "guarded": true,
+   "naive": 78072,
+   "lo": 40583.96290176214,
+   "hi": 67826.13883797941
+  },
+  {
+   "article": "Brock_Purdy",
+   "method": "prior",
+   "forecast": 36526,
+   "guarded": true,
+   "naive": 76126,
+   "lo": 20398.820159386174,
+   "hi": 81142.6240086518
+  },
+  {
+   "article": "London_Monster",
+   "method": "prior",
+   "forecast": 36158,
+   "guarded": true,
+   "naive": 72474,
+   "lo": 26076.85341803164,
+   "hi": 50118.43610454353
+  },
+  {
+   "article": "Tampa_Bay_Rays",
+   "method": "prior",
+   "forecast": 47349,
+   "guarded": true,
+   "naive": 69677,
+   "lo": 31195.416606487568,
+   "hi": 82588.48671915282
+  },
+  {
+   "article": "Carrie_(miniseries)",
+   "method": "formula",
+   "forecast": 62735,
+   "guarded": true,
+   "naive": 62996,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Call_of_Duty:_Modern_Warfare_4",
+   "method": "formula",
+   "forecast": 79176,
+   "guarded": true,
+   "naive": 62264,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Kylie_Jenner",
+   "method": "prior",
+   "forecast": 40573,
+   "guarded": true,
+   "naive": 60631,
+   "lo": 31517.653636345174,
+   "hi": 52674.0268455468
+  },
+  {
+   "article": "Osiris",
+   "method": "prior",
+   "forecast": 29639,
+   "guarded": true,
+   "naive": 59407,
+   "lo": 21375.219126928354,
+   "hi": 41082.125088481625
+  }
+ ]
+}
