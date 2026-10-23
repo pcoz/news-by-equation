@@ -210,5 +210,33 @@
    "cache_hits": 1068,
    "errors": 0
   }
+ },
+ {
+  "date": "20261022",
+  "timings": {
+   "fetch": 84.2,
+   "verify": 0.13,
+   "prior": 0.39,
+   "tnn+ppf": 14.0,
+   "score": 0.0,
+   "holant+nrf": 12.34,
+   "nrf-counters": 0.21,
+   "petra": 10.43,
+   "lfc-claims": 0.03,
+   "total": 121.74,
+   "story": 0.0
+  },
+  "warnings": [
+   {
+    "stage": "tnn",
+    "error": "PHP2Shell: only 2 days of history"
+   }
+  ],
+  "stories": 24,
+  "fetch": {
+   "requests": 465,
+   "cache_hits": 1001,
+   "errors": 0
+  }
  }
 ]

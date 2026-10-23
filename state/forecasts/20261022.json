@@ -1,0 +1,172 @@
+{
+ "issued_by_run": "20261022",
+ "provenance": {
+  "run_date": "20261022",
+  "generator": "nbe.run",
+  "prior_events": 3941
+ },
+ "forecasts": [
+  {
+   "article": "Tom_Skerritt",
+   "method": "prior",
+   "forecast": 187722,
+   "guarded": true,
+   "naive": 371141,
+   "lo": 97711.01703653716,
+   "hi": 426856.1916382238
+  },
+  {
+   "article": "John_Anderson_(singer)",
+   "method": "prior",
+   "forecast": 120427,
+   "guarded": true,
+   "naive": 336579,
+   "lo": 6602.40409575787,
+   "hi": 221707.7367257637
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 234993,
+   "guarded": true,
+   "naive": 243842,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Jerry_Hall",
+   "method": "prior",
+   "forecast": 94087,
+   "guarded": true,
+   "naive": 138456,
+   "lo": 61988.78541940443,
+   "hi": 164112.56967416825
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 35500,
+   "guarded": true,
+   "naive": 138013,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Amy_Acton",
+   "method": "formula",
+   "forecast": 147644,
+   "guarded": true,
+   "naive": 137065,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "BioWare",
+   "method": "prior",
+   "forecast": 39607,
+   "guarded": true,
+   "naive": 120343,
+   "lo": 32344.88413471707,
+   "hi": 50606.010294064414
+  },
+  {
+   "article": "Vivek_Ramaswamy",
+   "method": "prior",
+   "forecast": 59725,
+   "guarded": true,
+   "naive": 119711,
+   "lo": 43073.18761936674,
+   "hi": 82784.55866256879
+  },
+  {
+   "article": "Ron_Duguay",
+   "method": "prior",
+   "forecast": 61889,
+   "guarded": true,
+   "naive": 92485,
+   "lo": 48076.234872546775,
+   "hi": 80347.63360014507
+  },
+  {
+   "article": "Heath_Ledger",
+   "method": "prior",
+   "forecast": 45966,
+   "guarded": true,
+   "naive": 92132,
+   "lo": 33149.993916578234,
+   "hi": 63712.66599309827
+  },
+  {
+   "article": "PHP",
+   "method": "prior",
+   "forecast": 36194,
+   "guarded": true,
+   "naive": 88570,
+   "lo": 24482.78851956377,
+   "hi": 51864.183655502464
+  },
+  {
+   "article": "Yaxel_Lendeborg",
+   "method": "prior",
+   "forecast": 41315,
+   "guarded": true,
+   "naive": 86107,
+   "lo": 23073.34166335109,
+   "hi": 91781.36149952684
+  },
+  {
+   "article": "VisionQuest",
+   "method": "formula",
+   "forecast": 72225,
+   "guarded": false,
+   "naive": 80967,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Aberfan_disaster",
+   "method": "prior",
+   "forecast": 38678,
+   "guarded": true,
+   "naive": 77524,
+   "lo": 27893.89276677822,
+   "hi": 53610.69680945763
+  },
+  {
+   "article": "Street_Fighter_(2026_film)",
+   "method": "formula",
+   "forecast": 37625,
+   "guarded": true,
+   "naive": 71744,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Nathan_Fielder",
+   "method": "formula",
+   "forecast": 116267,
+   "guarded": true,
+   "naive": 69288,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "India_at_the_2026_Asian_Para_Games",
+   "method": "formula",
+   "forecast": 63969,
+   "guarded": true,
+   "naive": 68007,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Kim_Jong_Un",
+   "method": "formula",
+   "forecast": 171048,
+   "guarded": false,
+   "naive": 63579,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}
