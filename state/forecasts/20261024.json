@@ -1,0 +1,199 @@
+{
+ "issued_by_run": "20261024",
+ "provenance": {
+  "run_date": "20261024",
+  "generator": "nbe.run",
+  "prior_events": 3941
+ },
+ "forecasts": [
+  {
+   "article": "UFC_333",
+   "method": "prior",
+   "forecast": 107809,
+   "guarded": true,
+   "naive": 224691,
+   "lo": 60208.48725051413,
+   "hi": 239497.90257110554
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 169115,
+   "guarded": true,
+   "naive": 190945,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 172031,
+   "guarded": true,
+   "naive": 188874,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 134529,
+   "guarded": true,
+   "naive": 152908,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Jacob_Misiorowski",
+   "method": "prior",
+   "forecast": 63855,
+   "guarded": true,
+   "naive": 133083,
+   "lo": 35661.09060336272,
+   "hi": 141853.03090853858
+  },
+  {
+   "article": "Kehlsteinhaus",
+   "method": "prior",
+   "forecast": 74194,
+   "guarded": true,
+   "naive": 110874,
+   "lo": 57635.3404904444,
+   "hi": 96323.33381394263
+  },
+  {
+   "article": "Wildwood_(film)",
+   "method": "formula",
+   "forecast": 134543,
+   "guarded": true,
+   "naive": 96858,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Tom_Skerritt",
+   "method": "formula",
+   "forecast": 288638,
+   "guarded": false,
+   "naive": 88131,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Téa_Leoni",
+   "method": "formula",
+   "forecast": 94513,
+   "guarded": true,
+   "naive": 88011,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Alexander_Volkanovski",
+   "method": "prior",
+   "forecast": 41840,
+   "guarded": true,
+   "naive": 87200,
+   "lo": 23366.223338918033,
+   "hi": 92946.38905964371
+  },
+  {
+   "article": "Dorothy_(film)",
+   "method": "prior",
+   "forecast": 57938,
+   "guarded": true,
+   "naive": 86581,
+   "lo": 45007.174044439336,
+   "hi": 75218.45125949246
+  },
+  {
+   "article": "Ainsley_Earhardt",
+   "method": "prior",
+   "forecast": 42917,
+   "guarded": true,
+   "naive": 84850,
+   "lo": 22338.625469970113,
+   "hi": 97587.56876902119
+  },
+  {
+   "article": "Wicker_(film)",
+   "method": "prior",
+   "forecast": 56023,
+   "guarded": true,
+   "naive": 83719,
+   "lo": 43519.42809422872,
+   "hi": 72732.04884435903
+  },
+  {
+   "article": "H3h3Productions",
+   "method": "prior",
+   "forecast": 27485,
+   "guarded": true,
+   "naive": 83511,
+   "lo": 22445.456893831444,
+   "hi": 35117.60987899266
+  },
+  {
+   "article": "Māori_people",
+   "method": "prior",
+   "forecast": 40995,
+   "guarded": true,
+   "naive": 81051,
+   "lo": 21338.455308975223,
+   "hi": 93218.26795872641
+  },
+  {
+   "article": "Nathan_Fielder",
+   "method": "formula",
+   "forecast": 70214,
+   "guarded": true,
+   "naive": 79888,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Movsar_Evloev",
+   "method": "prior",
+   "forecast": 36859,
+   "guarded": true,
+   "naive": 76819,
+   "lo": 20584.517324224133,
+   "hi": 81881.29198592626
+  },
+  {
+   "article": "Amy_Winehouse",
+   "method": "prior",
+   "forecast": 35979,
+   "guarded": true,
+   "naive": 74985,
+   "lo": 20093.076342531753,
+   "hi": 79926.43329859384
+  },
+  {
+   "article": "Sean_Hannity",
+   "method": "prior",
+   "forecast": 36535,
+   "guarded": true,
+   "naive": 72232,
+   "lo": 19016.659928660945,
+   "hi": 83075.371447542
+  },
+  {
+   "article": "Tim_Daly",
+   "method": "formula",
+   "forecast": 70104,
+   "guarded": true,
+   "naive": 66139,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Street_Fighter_(2026_film)",
+   "method": "formula",
+   "forecast": 42825,
+   "guarded": true,
+   "naive": 64217,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}
