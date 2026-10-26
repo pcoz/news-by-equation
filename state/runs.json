@@ -266,5 +266,33 @@
    "cache_hits": 998,
    "errors": 0
   }
+ },
+ {
+  "date": "20261025",
+  "timings": {
+   "fetch": 93.03,
+   "verify": 0.13,
+   "prior": 0.41,
+   "tnn+ppf": 7.56,
+   "score": 0.19,
+   "holant+nrf": 6.97,
+   "nrf-counters": 0.29,
+   "petra": 10.09,
+   "lfc-claims": 0.03,
+   "total": 118.71,
+   "story": 0.0
+  },
+  "warnings": [
+   {
+    "stage": "tnn",
+    "error": "Billy_Evans_(businessman): only 6 days of history"
+   }
+  ],
+  "stories": 24,
+  "fetch": {
+   "requests": 454,
+   "cache_hits": 1033,
+   "errors": 0
+  }
  }
 ]

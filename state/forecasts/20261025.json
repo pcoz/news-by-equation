@@ -1,0 +1,190 @@
+{
+ "issued_by_run": "20261025",
+ "provenance": {
+  "run_date": "20261025",
+  "generator": "nbe.run",
+  "prior_events": 3941
+ },
+ "forecasts": [
+  {
+   "article": "2026_Brazilian_general_election",
+   "method": "prior",
+   "forecast": 130405,
+   "guarded": true,
+   "naive": 271783,
+   "lo": 72827.31969863716,
+   "hi": 289693.21625914157
+  },
+  {
+   "article": "2026_Serbian_parliamentary_election",
+   "method": "prior",
+   "forecast": 122647,
+   "guarded": true,
+   "naive": 242482,
+   "lo": 63838.71044442301,
+   "hi": 278883.0742516181
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 179681,
+   "guarded": true,
+   "naive": 193621,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 152996,
+   "guarded": true,
+   "naive": 186875,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 143076,
+   "guarded": true,
+   "naive": 159715,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "2026_British_Columbia_general_election",
+   "method": "prior",
+   "forecast": 94383,
+   "guarded": true,
+   "naive": 141044,
+   "lo": 73318.53242540397,
+   "hi": 122533.94208248756
+  },
+  {
+   "article": "Chef_Damu",
+   "method": "prior",
+   "forecast": 44544,
+   "guarded": true,
+   "naive": 124496,
+   "lo": 2442.1395877504888,
+   "hi": 82006.6801298081
+  },
+  {
+   "article": "Wildwood_(film)",
+   "method": "formula",
+   "forecast": 150681,
+   "guarded": true,
+   "naive": 118435,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Lorne_Doerkson",
+   "method": "prior",
+   "forecast": 55099,
+   "guarded": true,
+   "naive": 108935,
+   "lo": 28679.530531186734,
+   "hi": 125288.1768279708
+  },
+  {
+   "article": "Ainsley_Earhardt",
+   "method": "prior",
+   "forecast": 44213,
+   "guarded": true,
+   "naive": 108195,
+   "lo": 29907.5906500418,
+   "hi": 63356.0500237901
+  },
+  {
+   "article": "Sean_Hannity",
+   "method": "prior",
+   "forecast": 38366,
+   "guarded": true,
+   "naive": 93887,
+   "lo": 25952.529815245383,
+   "hi": 54977.67427869662
+  },
+  {
+   "article": "Candice_Swanepoel",
+   "method": "prior",
+   "forecast": 44074,
+   "guarded": true,
+   "naive": 91857,
+   "lo": 24614.119005080203,
+   "hi": 97910.28050288638
+  },
+  {
+   "article": "Student_List",
+   "method": "prior",
+   "forecast": 44971,
+   "guarded": true,
+   "naive": 88912,
+   "lo": 23408.03615540345,
+   "hi": 102259.35078834664
+  },
+  {
+   "article": "Wicker_(film)",
+   "method": "formula",
+   "forecast": 84183,
+   "guarded": true,
+   "naive": 81440,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Nathan_Fielder",
+   "method": "formula",
+   "forecast": 73529,
+   "guarded": true,
+   "naive": 80327,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Alexander_Volkanovski",
+   "method": "prior",
+   "forecast": 37807,
+   "guarded": true,
+   "naive": 75778,
+   "lo": 27265.664904815538,
+   "hi": 52403.27360336258
+  },
+  {
+   "article": "Jamie_Miller_(singer)",
+   "method": "prior",
+   "forecast": 50773,
+   "guarded": true,
+   "naive": 74716,
+   "lo": 33451.45094034366,
+   "hi": 88561.23790789244
+  },
+  {
+   "article": "Orion_(Star_Trek)",
+   "method": "prior",
+   "forecast": 24262,
+   "guarded": true,
+   "naive": 67808,
+   "lo": 1330.1359173482292,
+   "hi": 44665.76409075012
+  },
+  {
+   "article": "Arch_Manning",
+   "method": "prior",
+   "forecast": 44907,
+   "guarded": true,
+   "naive": 66084,
+   "lo": 29586.777717512585,
+   "hi": 78329.68635774351
+  },
+  {
+   "article": "UFC_333",
+   "method": "prior",
+   "forecast": 32865,
+   "guarded": true,
+   "naive": 65873,
+   "lo": 23701.749112868034,
+   "hi": 45553.60186431818
+  }
+ ]
+}
