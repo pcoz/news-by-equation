@@ -1,0 +1,217 @@
+{
+ "issued_by_run": "20261027",
+ "provenance": {
+  "run_date": "20261027",
+  "generator": "nbe.run",
+  "prior_events": 3947
+ },
+ "forecasts": [
+  {
+   "article": "2026_Israeli_legislative_election",
+   "method": "prior",
+   "forecast": 293587,
+   "guarded": true,
+   "naive": 438729,
+   "lo": 228073.02765674176,
+   "hi": 381118.77749990864
+  },
+  {
+   "article": "Harry_Kane",
+   "method": "prior",
+   "forecast": 179089,
+   "guarded": true,
+   "naive": 358958,
+   "lo": 129156.59614799515,
+   "hi": 248232.65705238754
+  },
+  {
+   "article": "Susan_Saint_James",
+   "method": "prior",
+   "forecast": 106771,
+   "guarded": true,
+   "naive": 298410,
+   "lo": 5853.673004599532,
+   "hi": 196565.45927207326
+  },
+  {
+   "article": "Ballon_d'Or",
+   "method": "prior",
+   "forecast": 135236,
+   "guarded": true,
+   "naive": 271061,
+   "lo": 97530.39661595983,
+   "hi": 187448.64929400437
+  },
+  {
+   "article": "2026_Ballon_d'Or",
+   "method": "prior",
+   "forecast": 97093,
+   "guarded": true,
+   "naive": 237598,
+   "lo": 65677.56110050032,
+   "hi": 139130.92817184233
+  },
+  {
+   "article": "Walter_Koenig",
+   "method": "prior",
+   "forecast": 60010,
+   "guarded": true,
+   "naive": 182339,
+   "lo": 49007.7015550566,
+   "hi": 76676.24465909452
+  },
+  {
+   "article": "Gadi_Eisenkot",
+   "method": "formula",
+   "forecast": 491901,
+   "guarded": true,
+   "naive": 179535,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Eric_Bauza",
+   "method": "prior",
+   "forecast": 51628,
+   "guarded": true,
+   "naive": 156871,
+   "lo": 42162.60454781086,
+   "hi": 65966.5742157016
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 129222,
+   "guarded": true,
+   "naive": 147801,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Alexia_Putellas",
+   "method": "prior",
+   "forecast": 59814,
+   "guarded": true,
+   "naive": 146373,
+   "lo": 40460.86941373047,
+   "hi": 85712.04870957279
+  },
+  {
+   "article": "Nicki_Minaj",
+   "method": "prior",
+   "forecast": 72615,
+   "guarded": true,
+   "naive": 145546,
+   "lo": 52368.87307973663,
+   "hi": 100650.41119949074
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 168327,
+   "guarded": true,
+   "naive": 143754,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Tanner_McKee",
+   "method": "prior",
+   "forecast": 63916,
+   "guarded": true,
+   "naive": 133210,
+   "lo": 35695.12168551917,
+   "hi": 141988.40007609103
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 140522,
+   "guarded": true,
+   "naive": 116879,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Luiz_Inácio_Lula_da_Silva",
+   "method": "prior",
+   "forecast": 47482,
+   "guarded": true,
+   "naive": 116194,
+   "lo": 32118.69853496887,
+   "hi": 68040.04691958285
+  },
+  {
+   "article": "Donnie_Iris",
+   "method": "prior",
+   "forecast": 47253,
+   "guarded": true,
+   "naive": 115635,
+   "lo": 31964.178056449775,
+   "hi": 67712.71171958934
+  },
+  {
+   "article": "Fleetwood_Town_F.C.",
+   "method": "prior",
+   "forecast": 74513,
+   "guarded": true,
+   "naive": 111350,
+   "lo": 57885.23582798993,
+   "hi": 96728.44939499059
+  },
+  {
+   "article": "Opinion_polling_for_the_2026_Israeli_legislative_election",
+   "method": "prior",
+   "forecast": 67095,
+   "guarded": true,
+   "naive": 100265,
+   "lo": 52122.704717498076,
+   "hi": 87099.03887372008
+  },
+  {
+   "article": "Benjamin_Netanyahu",
+   "method": "prior",
+   "forecast": 63048,
+   "guarded": true,
+   "naive": 92708,
+   "lo": 41531.58814249585,
+   "hi": 109859.69600552575
+  },
+  {
+   "article": "Yashar_(political_party)",
+   "method": "formula",
+   "forecast": 253568,
+   "guarded": true,
+   "naive": 92586,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Wildwood_(film)",
+   "method": "formula",
+   "forecast": 109098,
+   "guarded": true,
+   "naive": 85263,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Jair_Bolsonaro",
+   "method": "prior",
+   "forecast": 41959,
+   "guarded": true,
+   "naive": 84100,
+   "lo": 30260.001827641096,
+   "hi": 58158.24263035172
+  },
+  {
+   "article": "Exponential_time_hypothesis",
+   "method": "prior",
+   "forecast": 27158,
+   "guarded": true,
+   "naive": 82520,
+   "lo": 22179.103386128423,
+   "hi": 34700.879730987224
+  }
+ ]
+}
