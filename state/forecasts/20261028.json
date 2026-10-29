@@ -1,0 +1,208 @@
+{
+ "issued_by_run": "20261028",
+ "provenance": {
+  "run_date": "20261028",
+  "generator": "nbe.run",
+  "prior_events": 3947
+ },
+ "forecasts": [
+  {
+   "article": "2026_Israeli_legislative_election",
+   "method": "prior",
+   "forecast": 461894,
+   "guarded": true,
+   "naive": 925801,
+   "lo": 333112.2467542444,
+   "hi": 640225.4362119174
+  },
+  {
+   "article": "Susan_Saint_James",
+   "method": "prior",
+   "forecast": 65882,
+   "guarded": true,
+   "naive": 200179,
+   "lo": 53802.60223863065,
+   "hi": 84178.22835275438
+  },
+  {
+   "article": "Gadi_Eisenkot",
+   "method": "formula",
+   "forecast": 193029,
+   "guarded": true,
+   "naive": 186080,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Dancing_with_the_Stars_(American_TV_series)_season_35",
+   "method": "prior",
+   "forecast": 83066,
+   "guarded": true,
+   "naive": 173121,
+   "lo": 46389.72420478015,
+   "hi": 184529.49335314884
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 150935,
+   "guarded": true,
+   "naive": 143460,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Ted_Bundy",
+   "method": "prior",
+   "forecast": 95939,
+   "guarded": true,
+   "naive": 143369,
+   "lo": 74530.29524403313,
+   "hi": 124542.98214019224
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 114234,
+   "guarded": true,
+   "naive": 134068,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "2022_Israeli_legislative_election",
+   "method": "prior",
+   "forecast": 66682,
+   "guarded": true,
+   "naive": 133655,
+   "lo": 48090.37508053948,
+   "hi": 92427.34742877122
+  },
+  {
+   "article": "Matthew_Perry",
+   "method": "prior",
+   "forecast": 63747,
+   "guarded": true,
+   "naive": 127771,
+   "lo": 45973.25438192069,
+   "hi": 88358.34505496634
+  },
+  {
+   "article": "Lamprey",
+   "method": "prior",
+   "forecast": 64538,
+   "guarded": true,
+   "naive": 127597,
+   "lo": 33592.71177479996,
+   "hi": 146751.69136382788
+  },
+  {
+   "article": "Yashar_(political_party)",
+   "method": "formula",
+   "forecast": 135679,
+   "guarded": true,
+   "naive": 125428,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Benjamin_Netanyahu",
+   "method": "prior",
+   "forecast": 83494,
+   "guarded": true,
+   "naive": 124772,
+   "lo": 64862.65509411728,
+   "hi": 108387.98462426373
+  },
+  {
+   "article": "Joint_List",
+   "method": "prior",
+   "forecast": 59421,
+   "guarded": true,
+   "naive": 119100,
+   "lo": 42853.34384865701,
+   "hi": 82362.02969411283
+  },
+  {
+   "article": "Cooper_Pratt",
+   "method": "prior",
+   "forecast": 57527,
+   "guarded": true,
+   "naive": 113736,
+   "lo": 29943.499192133422,
+   "hi": 130809.89654111248
+  },
+  {
+   "article": "Flávio_Bolsonaro",
+   "method": "formula",
+   "forecast": 112258,
+   "guarded": true,
+   "naive": 111517,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 126208,
+   "guarded": true,
+   "naive": 109799,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Alexander_brothers_(sex_offenders)",
+   "method": "prior",
+   "forecast": 50725,
+   "guarded": true,
+   "naive": 101671,
+   "lo": 36582.21933196311,
+   "hi": 70309.23527313305
+  },
+  {
+   "article": "Jair_Bolsonaro",
+   "method": "formula",
+   "forecast": 119020,
+   "guarded": false,
+   "naive": 100598,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Fleetwood_Town_F.C.",
+   "method": "prior",
+   "forecast": 30957,
+   "guarded": true,
+   "naive": 94061,
+   "lo": 25281.00634516027,
+   "hi": 39554.04081890923
+  },
+  {
+   "article": "Luiz_Inácio_Lula_da_Silva",
+   "method": "formula",
+   "forecast": 201496,
+   "guarded": false,
+   "naive": 91826,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Harry_Kane",
+   "method": "formula",
+   "forecast": 224533,
+   "guarded": false,
+   "naive": 90136,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Nicki_Minaj",
+   "method": "formula",
+   "forecast": 126303,
+   "guarded": true,
+   "naive": 88882,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}
