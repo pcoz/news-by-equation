@@ -1,0 +1,226 @@
+{
+ "issued_by_run": "20261029",
+ "provenance": {
+  "run_date": "20261029",
+  "generator": "nbe.run",
+  "prior_events": 3950
+ },
+ "forecasts": [
+  {
+   "article": "Patrick_Stewart",
+   "method": "prior",
+   "forecast": 843170,
+   "guarded": true,
+   "naive": 2356552,
+   "lo": 46226.61715872469,
+   "hi": 1552282.853049572
+  },
+  {
+   "article": "2026_Israeli_legislative_election",
+   "method": "formula",
+   "forecast": 635613,
+   "guarded": false,
+   "naive": 363543,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Sunny_Ozell",
+   "method": "prior",
+   "forecast": 124042,
+   "guarded": true,
+   "naive": 346682,
+   "lo": 6800.586657888727,
+   "hi": 228362.67736121747
+  },
+  {
+   "article": "William_Contreras",
+   "method": "prior",
+   "forecast": 115568,
+   "guarded": true,
+   "naive": 228487,
+   "lo": 60154.219419647154,
+   "hi": 262787.1635277236
+  },
+  {
+   "article": "Jacob_Misiorowski",
+   "method": "prior",
+   "forecast": 107684,
+   "guarded": true,
+   "naive": 212900,
+   "lo": 56050.599440856065,
+   "hi": 244860.26388832775
+  },
+  {
+   "article": "Patrick_Stewart_on_stage_and_screen",
+   "method": "prior",
+   "forecast": 76050,
+   "guarded": true,
+   "naive": 212550,
+   "lo": 4169.425277730741,
+   "hi": 140008.67386575238
+  },
+  {
+   "article": "Bob_Uecker",
+   "method": "prior",
+   "forecast": 102477,
+   "guarded": true,
+   "naive": 205548,
+   "lo": 73877.93015545292,
+   "hi": 142139.38263251857
+  },
+  {
+   "article": "Pat_Murphy_(baseball_manager)",
+   "method": "prior",
+   "forecast": 94320,
+   "guarded": true,
+   "naive": 196456,
+   "lo": 52660.09257861635,
+   "hi": 209554.4916548798
+  },
+  {
+   "article": "Milwaukee_Brewers",
+   "method": "prior",
+   "forecast": 126513,
+   "guarded": true,
+   "naive": 185722,
+   "lo": 83243.68670102453,
+   "hi": 220503.13021800912
+  },
+  {
+   "article": "Barbara_Barrie",
+   "method": "prior",
+   "forecast": 75083,
+   "guarded": true,
+   "naive": 183737,
+   "lo": 50789.13982408364,
+   "hi": 107591.3911291753
+  },
+  {
+   "article": "Lewy_body_dementia",
+   "method": "prior",
+   "forecast": 81862,
+   "guarded": true,
+   "naive": 161848,
+   "lo": 42610.039541116355,
+   "hi": 186144.4057764118
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 144156,
+   "guarded": true,
+   "naive": 140836,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Cooper_Pratt",
+   "method": "prior",
+   "forecast": 53519,
+   "guarded": true,
+   "naive": 130967,
+   "lo": 36202.29608266578,
+   "hi": 76690.71402066379
+  },
+  {
+   "article": "Ian_McKellen",
+   "method": "prior",
+   "forecast": 61373,
+   "guarded": true,
+   "naive": 127831,
+   "lo": 34265.13974842767,
+   "hi": 136353.99388532262
+  },
+  {
+   "article": "Jeffery_Simmons",
+   "method": "prior",
+   "forecast": 82036,
+   "guarded": true,
+   "naive": 122632,
+   "lo": 63734.456001704355,
+   "hi": 106516.94651613258
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 101969,
+   "guarded": true,
+   "naive": 122337,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Wendy_Neuss",
+   "method": "prior",
+   "forecast": 40754,
+   "guarded": true,
+   "naive": 113901,
+   "lo": 2234.305850664828,
+   "hi": 75027.65449062838
+  },
+  {
+   "article": "Christian_Yelich",
+   "method": "prior",
+   "forecast": 49171,
+   "guarded": true,
+   "naive": 102416,
+   "lo": 27452.641006289305,
+   "hi": 109244.47620498315
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 116318,
+   "guarded": true,
+   "naive": 99486,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Matthew_Perry",
+   "method": "formula",
+   "forecast": 111986,
+   "guarded": true,
+   "naive": 96174,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Willson_Contreras",
+   "method": "prior",
+   "forecast": 46781,
+   "guarded": true,
+   "naive": 92490,
+   "lo": 24350.023214113564,
+   "hi": 106374.4753735624
+  },
+  {
+   "article": "Jonestown",
+   "method": "prior",
+   "forecast": 43334,
+   "guarded": true,
+   "naive": 90259,
+   "lo": 24193.95333333333,
+   "hi": 96276.92135785008
+  },
+  {
+   "article": "Elke_Sommer",
+   "method": "prior",
+   "forecast": 32058,
+   "guarded": true,
+   "naive": 89598,
+   "lo": 1757.5731170741894,
+   "hi": 59019.04098340947
+  },
+  {
+   "article": "Jennifer_Hetrick",
+   "method": "prior",
+   "forecast": 31900,
+   "guarded": true,
+   "naive": 89157,
+   "lo": 1748.92236879153,
+   "hi": 58728.550156899015
+  }
+ ]
+}
