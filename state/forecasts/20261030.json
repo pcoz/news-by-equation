@@ -1,0 +1,199 @@
+{
+ "issued_by_run": "20261030",
+ "provenance": {
+  "run_date": "20261030",
+  "generator": "nbe.run",
+  "prior_events": 3965
+ },
+ "forecasts": [
+  {
+   "article": "Patrick_Stewart",
+   "method": "prior",
+   "forecast": 619661,
+   "guarded": true,
+   "naive": 1882386,
+   "lo": 506366.0430472378,
+   "hi": 795045.4482015357
+  },
+  {
+   "article": "Sunny_Ozell",
+   "method": "prior",
+   "forecast": 160943,
+   "guarded": true,
+   "naive": 488907,
+   "lo": 131517.0762044001,
+   "hi": 206494.99355810563
+  },
+  {
+   "article": "Ian_McKellen",
+   "method": "prior",
+   "forecast": 106912,
+   "guarded": true,
+   "naive": 213817,
+   "lo": 76934.0908840526,
+   "hi": 148602.97537878787
+  },
+  {
+   "article": "Wendy_Neuss",
+   "method": "prior",
+   "forecast": 53969,
+   "guarded": true,
+   "naive": 163945,
+   "lo": 44101.571583819365,
+   "hi": 69243.88834458012
+  },
+  {
+   "article": "Lewy_body_dementia",
+   "method": "prior",
+   "forecast": 66094,
+   "guarded": true,
+   "naive": 160656,
+   "lo": 44461.19720135,
+   "hi": 94221.34464122751
+  },
+  {
+   "article": "2026_Israeli_legislative_election",
+   "method": "formula",
+   "forecast": 476702,
+   "guarded": false,
+   "naive": 152854,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Sebastian_Croft",
+   "method": "prior",
+   "forecast": 73656,
+   "guarded": true,
+   "naive": 152737,
+   "lo": 41004.807206118676,
+   "hi": 164114.47161655995
+  },
+  {
+   "article": "Jonestown",
+   "method": "prior",
+   "forecast": 71653,
+   "guarded": true,
+   "naive": 143302,
+   "lo": 51561.8921407863,
+   "hi": 99594.99748724872
+  },
+  {
+   "article": "Maya_Jama",
+   "method": "prior",
+   "forecast": 94611,
+   "guarded": true,
+   "naive": 139120,
+   "lo": 62400.333835430894,
+   "hi": 164822.8174328993
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 137448,
+   "guarded": true,
+   "naive": 133733,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Jennifer_Hetrick",
+   "method": "prior",
+   "forecast": 41360,
+   "guarded": true,
+   "naive": 125642,
+   "lo": 33797.97893765734,
+   "hi": 53066.2150074094
+  },
+  {
+   "article": "James_Blunt",
+   "method": "prior",
+   "forecast": 83809,
+   "guarded": true,
+   "naive": 123236,
+   "lo": 55275.7873817076,
+   "hi": 146004.2030560723
+  },
+  {
+   "article": "Patrick_Stewart_on_stage_and_screen",
+   "method": "prior",
+   "forecast": 39422,
+   "guarded": true,
+   "naive": 119754,
+   "lo": 32214.093771988802,
+   "hi": 50579.356520887166
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 92806,
+   "guarded": true,
+   "naive": 113774,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Celebrity_Traitors_series_2",
+   "method": "prior",
+   "forecast": 68195,
+   "guarded": true,
+   "naive": 100276,
+   "lo": 44977.39991145535,
+   "hi": 118802.27746478873
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 105927,
+   "guarded": true,
+   "naive": 90084,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "William_Shatner",
+   "method": "prior",
+   "forecast": 44815,
+   "guarded": true,
+   "naive": 89627,
+   "lo": 32248.94074683015,
+   "hi": 62290.8322269727
+  },
+  {
+   "article": "Christa_Pike",
+   "method": "formula",
+   "forecast": 21075,
+   "guarded": false,
+   "naive": 87060,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Halloween",
+   "method": "prior",
+   "forecast": 56223,
+   "guarded": true,
+   "naive": 82673,
+   "lo": 37081.82000558208,
+   "hi": 97947.07292718576
+  },
+  {
+   "article": "Matthew_Perry",
+   "method": "formula",
+   "forecast": 101723,
+   "guarded": true,
+   "naive": 81862,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Avengers:_Doomsday",
+   "method": "prior",
+   "forecast": 52368,
+   "guarded": true,
+   "naive": 78283,
+   "lo": 40664.660311015745,
+   "hi": 67995.84222814931
+  }
+ ]
+}
