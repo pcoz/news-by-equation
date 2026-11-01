@@ -386,5 +386,33 @@
    "cache_hits": 1084,
    "errors": 0
   }
+ },
+ {
+  "date": "20261031",
+  "timings": {
+   "fetch": 90.2,
+   "verify": 0.13,
+   "prior": 0.87,
+   "tnn+ppf": 11.42,
+   "score": 0.1,
+   "holant+nrf": 8.5,
+   "nrf-counters": 0.29,
+   "petra": 10.1,
+   "lfc-claims": 0.03,
+   "total": 121.63,
+   "story": 0.0
+  },
+  "warnings": [
+   {
+    "stage": "tnn",
+    "error": "Suspension_of_Bogdan_Święczkowski: only 2 days of history"
+   }
+  ],
+  "stories": 24,
+  "fetch": {
+   "requests": 455,
+   "cache_hits": 1074,
+   "errors": 0
+  }
  }
 ]

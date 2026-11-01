@@ -1,0 +1,172 @@
+{
+ "issued_by_run": "20261031",
+ "provenance": {
+  "run_date": "20261031",
+  "generator": "nbe.run",
+  "prior_events": 3968
+ },
+ "forecasts": [
+  {
+   "article": "Patrick_Stewart",
+   "method": "formula",
+   "forecast": 1563030,
+   "guarded": false,
+   "naive": 450119,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Nidhi_Razdan",
+   "method": "prior",
+   "forecast": 108980,
+   "guarded": true,
+   "naive": 303902,
+   "lo": 6422.196224515734,
+   "hi": 200768.22921580344
+  },
+  {
+   "article": "Halloween",
+   "method": "prior",
+   "forecast": 135575,
+   "guarded": true,
+   "naive": 202666,
+   "lo": 105276.29302137523,
+   "hi": 176033.69008609926
+  },
+  {
+   "article": "Sanjay_Gupta_(director)",
+   "method": "prior",
+   "forecast": 60494,
+   "guarded": true,
+   "naive": 168695,
+   "lo": 3564.93998754428,
+   "hi": 111445.78327079111
+  },
+  {
+   "article": "Omar_Abdullah",
+   "method": "prior",
+   "forecast": 55017,
+   "guarded": true,
+   "naive": 153421,
+   "lo": 3242.162825389199,
+   "hi": 101355.24772629919
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 138346,
+   "guarded": true,
+   "naive": 150897,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Sebastian_Croft",
+   "method": "prior",
+   "forecast": 67332,
+   "guarded": true,
+   "naive": 134794,
+   "lo": 48500.19841088054,
+   "hi": 93529.21429623087
+  },
+  {
+   "article": "Sunny_Ozell",
+   "method": "formula",
+   "forecast": 320652,
+   "guarded": false,
+   "naive": 126366,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 88765,
+   "guarded": true,
+   "naive": 113592,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Neelesh_Misra",
+   "method": "prior",
+   "forecast": 40224,
+   "guarded": true,
+   "naive": 112170,
+   "lo": 2370.4278040418617,
+   "hi": 74103.40264669752
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 98848,
+   "guarded": true,
+   "naive": 91527,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Maya_Jama",
+   "method": "prior",
+   "forecast": 60643,
+   "guarded": true,
+   "naive": 90652,
+   "lo": 47089.82520488739,
+   "hi": 78739.43371697803
+  },
+  {
+   "article": "Ian_McKellen",
+   "method": "formula",
+   "forecast": 148460,
+   "guarded": false,
+   "naive": 83097,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "2026_Israeli_legislative_election",
+   "method": "formula",
+   "forecast": 117665,
+   "guarded": true,
+   "naive": 82483,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Donald_Tusk",
+   "method": "prior",
+   "forecast": 34702,
+   "guarded": true,
+   "naive": 69471,
+   "lo": 24996.34467262847,
+   "hi": 48203.68893551237
+  },
+  {
+   "article": "Wildwood_(film)",
+   "method": "formula",
+   "forecast": 60477,
+   "guarded": true,
+   "naive": 65299,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Nocturne_(TV_series)",
+   "method": "prior",
+   "forecast": 43211,
+   "guarded": true,
+   "naive": 64594,
+   "lo": 33553.81204258589,
+   "hi": 56105.71174948682
+  },
+  {
+   "article": "James_Blunt",
+   "method": "prior",
+   "forecast": 42886,
+   "guarded": true,
+   "naive": 64109,
+   "lo": 33301.875348145935,
+   "hi": 55684.44552973729
+  }
+ ]
+}
