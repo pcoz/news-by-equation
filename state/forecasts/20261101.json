@@ -1,0 +1,199 @@
+{
+ "issued_by_run": "20261101",
+ "provenance": {
+  "run_date": "20261101",
+  "generator": "nbe.run",
+  "prior_events": 3972
+ },
+ "forecasts": [
+  {
+   "article": "Haley_Stevens",
+   "method": "prior",
+   "forecast": 182853,
+   "guarded": true,
+   "naive": 360148,
+   "lo": 94829.10713679744,
+   "hi": 409748.3099651428
+  },
+  {
+   "article": "Patrick_Stewart",
+   "method": "formula",
+   "forecast": 1223622,
+   "guarded": false,
+   "naive": 205436,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Tung_Tung_Tung_Sahur",
+   "method": "prior",
+   "forecast": 93141,
+   "guarded": true,
+   "naive": 192363,
+   "lo": 51890.98775946774,
+   "hi": 209461.21991892377
+  },
+  {
+   "article": "Nidhi_Razdan",
+   "method": "prior",
+   "forecast": 61764,
+   "guarded": true,
+   "naive": 187499,
+   "lo": 50441.574646487396,
+   "hi": 79470.19356135832
+  },
+  {
+   "article": "Gabby_Williams",
+   "method": "prior",
+   "forecast": 87253,
+   "guarded": true,
+   "naive": 180204,
+   "lo": 48611.029970457545,
+   "hi": 196221.46501286494
+  },
+  {
+   "article": "Heidi_Klum",
+   "method": "prior",
+   "forecast": 94867,
+   "guarded": true,
+   "naive": 141812,
+   "lo": 73679.81174439075,
+   "hi": 123153.73059931435
+  },
+  {
+   "article": "Ciara_Mageean",
+   "method": "prior",
+   "forecast": 49654,
+   "guarded": true,
+   "naive": 138465,
+   "lo": 2926.105784850284,
+   "hi": 91474.79404007285
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 135148,
+   "guarded": true,
+   "naive": 135985,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 88341,
+   "guarded": true,
+   "naive": 115995,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Kimi_Antonelli",
+   "method": "prior",
+   "forecast": 50354,
+   "guarded": true,
+   "naive": 103995,
+   "lo": 28053.22890600504,
+   "hi": 113238.6143149591
+  },
+  {
+   "article": "Sanjay_Gupta_(director)",
+   "method": "prior",
+   "forecast": 32425,
+   "guarded": true,
+   "naive": 98434,
+   "lo": 26481.026345486323,
+   "hi": 41720.59068591696
+  },
+  {
+   "article": "Halloween",
+   "method": "formula",
+   "forecast": 149410,
+   "guarded": false,
+   "naive": 96152,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Omar_Abdullah",
+   "method": "prior",
+   "forecast": 31513,
+   "guarded": true,
+   "naive": 95665,
+   "lo": 25736.101198172877,
+   "hi": 40546.96860808507
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 94986,
+   "guarded": true,
+   "naive": 94892,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Natalie_Nakase",
+   "method": "prior",
+   "forecast": 44586,
+   "guarded": true,
+   "naive": 92084,
+   "lo": 24840.17049454847,
+   "hi": 100268.90293359001
+  },
+  {
+   "article": "Matthew_Perry",
+   "method": "formula",
+   "forecast": 86716,
+   "guarded": true,
+   "naive": 90662,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Maya_Jama",
+   "method": "formula",
+   "forecast": 102986,
+   "guarded": false,
+   "naive": 79188,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Chris_Murphy",
+   "method": "prior",
+   "forecast": 39913,
+   "guarded": true,
+   "naive": 78612,
+   "lo": 20699.006436903495,
+   "hi": 89438.60341576187
+  },
+  {
+   "article": "Golden_State_Valkyries",
+   "method": "prior",
+   "forecast": 37946,
+   "guarded": true,
+   "naive": 78369,
+   "lo": 21140.47306250021,
+   "hi": 85334.84268713908
+  },
+  {
+   "article": "Neelesh_Misra",
+   "method": "prior",
+   "forecast": 24166,
+   "guarded": true,
+   "naive": 73362,
+   "lo": 19736.07752156336,
+   "hi": 31093.991648213425
+  },
+  {
+   "article": "Day_of_the_Dead",
+   "method": "formula",
+   "forecast": 139079,
+   "guarded": true,
+   "naive": 72853,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}
