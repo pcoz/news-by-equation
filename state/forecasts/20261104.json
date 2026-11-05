@@ -1,0 +1,217 @@
+{
+ "issued_by_run": "20261104",
+ "provenance": {
+  "run_date": "20261104",
+  "generator": "nbe.run",
+  "prior_events": 4004
+ },
+ "forecasts": [
+  {
+   "article": "James_Talarico",
+   "method": "prior",
+   "forecast": 608165,
+   "guarded": true,
+   "naive": 1256040,
+   "lo": 336570.0821400758,
+   "hi": 1370545.100338973
+  },
+  {
+   "article": "Gina_Hinojosa",
+   "method": "prior",
+   "forecast": 628379,
+   "guarded": true,
+   "naive": 1242354,
+   "lo": 326992.53119733924,
+   "hi": 1398052.479644605
+  },
+  {
+   "article": "2026_United_States_elections",
+   "method": "formula",
+   "forecast": 3184534,
+   "guarded": true,
+   "naive": 1153444,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Jon_Ossoff",
+   "method": "prior",
+   "forecast": 296260,
+   "guarded": true,
+   "naive": 611863,
+   "lo": 163955.5907204175,
+   "hi": 667642.6202419549
+  },
+  {
+   "article": "United_States_midterm_election",
+   "method": "formula",
+   "forecast": 1029046,
+   "guarded": true,
+   "naive": 523575,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "2026_United_States_Senate_elections",
+   "method": "prior",
+   "forecast": 239119,
+   "guarded": true,
+   "naive": 493851,
+   "lo": 132332.94452004597,
+   "hi": 538872.224091193
+  },
+  {
+   "article": "Keisha_Lance_Bottoms",
+   "method": "prior",
+   "forecast": 288719,
+   "guarded": true,
+   "naive": 431379,
+   "lo": 224073.41780572993,
+   "hi": 374574.1747027138
+  },
+  {
+   "article": "Byron_Donalds",
+   "method": "prior",
+   "forecast": 242461,
+   "guarded": true,
+   "naive": 362265,
+   "lo": 188173.1764907257,
+   "hi": 314561.2405765663
+  },
+  {
+   "article": "Greg_Abbott",
+   "method": "prior",
+   "forecast": 165873,
+   "guarded": true,
+   "naive": 327943,
+   "lo": 86315.90646341463,
+   "hi": 369042.5791135946
+  },
+  {
+   "article": "Dan_Osborn",
+   "method": "prior",
+   "forecast": 182818,
+   "guarded": true,
+   "naive": 273151,
+   "lo": 141884.23207215217,
+   "hi": 237181.94532932984
+  },
+  {
+   "article": "Democratic_Party_(United_States)",
+   "method": "prior",
+   "forecast": 171674,
+   "guarded": true,
+   "naive": 256501,
+   "lo": 133235.6367384308,
+   "hi": 222724.4496960232
+  },
+  {
+   "article": "United_States_Senate",
+   "method": "prior",
+   "forecast": 123852,
+   "guarded": true,
+   "naive": 255791,
+   "lo": 68542.08295969246,
+   "hi": 279109.82274514047
+  },
+  {
+   "article": "2026_United_States_House_of_Representatives_elections",
+   "method": "prior",
+   "forecast": 166926,
+   "guarded": true,
+   "naive": 249406,
+   "lo": 129550.2443124396,
+   "hi": 216563.73308831686
+  },
+  {
+   "article": "2028_United_States_Senate_elections",
+   "method": "prior",
+   "forecast": 123694,
+   "guarded": true,
+   "naive": 244552,
+   "lo": 64367.06243902438,
+   "hi": 275200.5708534342
+  },
+  {
+   "article": "Annie_Andrews_(pediatrician)",
+   "method": "prior",
+   "forecast": 115248,
+   "guarded": true,
+   "naive": 238020,
+   "lo": 63780.14310928062,
+   "hi": 259718.7548029381
+  },
+  {
+   "article": "Amy_Acton",
+   "method": "prior",
+   "forecast": 156457,
+   "guarded": true,
+   "naive": 231084,
+   "lo": 103270.45270924945,
+   "hi": 271551.0171204957
+  },
+  {
+   "article": "Vivek_Ramaswamy",
+   "method": "prior",
+   "forecast": 153435,
+   "guarded": true,
+   "naive": 226620,
+   "lo": 101275.51017366028,
+   "hi": 266305.2894179032
+  },
+  {
+   "article": "Jesús_de_Miguel",
+   "method": "prior",
+   "forecast": 73980,
+   "guarded": true,
+   "naive": 224585,
+   "lo": 60259.05432878427,
+   "hi": 94717.65579870183
+  },
+  {
+   "article": "Hakeem_Jeffries",
+   "method": "prior",
+   "forecast": 143398,
+   "guarded": true,
+   "naive": 214253,
+   "lo": 111290.5403024511,
+   "hi": 186039.74846383467
+  },
+  {
+   "article": "Red_states_and_blue_states",
+   "method": "prior",
+   "forecast": 143292,
+   "guarded": true,
+   "naive": 214095,
+   "lo": 111208.46954793291,
+   "hi": 185902.55421097807
+  },
+  {
+   "article": "Xavier_Becerra",
+   "method": "prior",
+   "forecast": 135460,
+   "guarded": true,
+   "naive": 202392,
+   "lo": 105129.51992687937,
+   "hi": 175740.62800097282
+  },
+  {
+   "article": "United_States_House_of_Representatives",
+   "method": "prior",
+   "forecast": 96664,
+   "guarded": true,
+   "naive": 199639,
+   "lo": 53495.521343558,
+   "hi": 217838.80552098042
+  },
+  {
+   "article": "Ken_Paxton",
+   "method": "prior",
+   "forecast": 95829,
+   "guarded": true,
+   "naive": 197914,
+   "lo": 53033.288141039266,
+   "hi": 215956.54834916684
+  }
+ ]
+}
