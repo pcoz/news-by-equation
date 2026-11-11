@@ -1,0 +1,208 @@
+{
+ "issued_by_run": "20261110",
+ "provenance": {
+  "run_date": "20261110",
+  "generator": "nbe.run",
+  "prior_events": 4071
+ },
+ "forecasts": [
+  {
+   "article": "Ramayana:_Part_1",
+   "method": "formula",
+   "forecast": 845744,
+   "guarded": true,
+   "naive": 840888,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Russell_Brand",
+   "method": "prior",
+   "forecast": 226090,
+   "guarded": true,
+   "naive": 545717,
+   "lo": 151552.49326889674,
+   "hi": 320761.83561034984
+  },
+  {
+   "article": "Jensen_Huang",
+   "method": "prior",
+   "forecast": 224779,
+   "guarded": true,
+   "naive": 542553,
+   "lo": 150673.81056576894,
+   "hi": 318902.0979663491
+  },
+  {
+   "article": "David_Walliams",
+   "method": "prior",
+   "forecast": 249907,
+   "guarded": true,
+   "naive": 512804,
+   "lo": 136804.32745744722,
+   "hi": 561871.8078087509
+  },
+  {
+   "article": "Thomas_Massie",
+   "method": "prior",
+   "forecast": 83415,
+   "guarded": true,
+   "naive": 166628,
+   "lo": 60063.35421677637,
+   "hi": 116092.87885047252
+  },
+  {
+   "article": "SS_Edmund_Fitzgerald",
+   "method": "prior",
+   "forecast": 79727,
+   "guarded": true,
+   "naive": 163598,
+   "lo": 43644.188351462646,
+   "hi": 179251.92473907385
+  },
+  {
+   "article": "Carson_Wentz",
+   "method": "prior",
+   "forecast": 80576,
+   "guarded": true,
+   "naive": 158702,
+   "lo": 41776.39288392943,
+   "hi": 178524.8390747693
+  },
+  {
+   "article": "Lara_Stone",
+   "method": "prior",
+   "forecast": 67796,
+   "guarded": true,
+   "naive": 139117,
+   "lo": 37113.219910331594,
+   "hi": 152428.45275569224
+  },
+  {
+   "article": "Kirk_Cousins",
+   "method": "prior",
+   "forecast": 69507,
+   "guarded": true,
+   "naive": 136900,
+   "lo": 36037.27858382339,
+   "hi": 153999.63749250743
+  },
+  {
+   "article": "Pete_Hegseth",
+   "method": "prior",
+   "forecast": 85541,
+   "guarded": true,
+   "naive": 127687,
+   "lo": 66383.22770919067,
+   "hi": 110926.48196392786
+  },
+  {
+   "article": "Nvidia",
+   "method": "prior",
+   "forecast": 62001,
+   "guarded": true,
+   "naive": 123851,
+   "lo": 44643.796259343995,
+   "hi": 86289.33395653716
+  },
+  {
+   "article": "Godzilla_Minus_Zero",
+   "method": "formula",
+   "forecast": 134925,
+   "guarded": true,
+   "naive": 107366,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Jemima_Goldsmith",
+   "method": "prior",
+   "forecast": 40080,
+   "guarded": true,
+   "naive": 96742,
+   "lo": 26866.473472183585,
+   "hi": 56863.065472793525
+  },
+  {
+   "article": "Survivor_Series:_WarGames_(2026)",
+   "method": "prior",
+   "forecast": 40398,
+   "guarded": true,
+   "naive": 82896,
+   "lo": 22114.74857628362,
+   "hi": 90827.92915054137
+  },
+  {
+   "article": "2026_United_States_elections",
+   "method": "formula",
+   "forecast": 78525,
+   "guarded": true,
+   "naive": 82516,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Adrian_Peterson",
+   "method": "prior",
+   "forecast": 41743,
+   "guarded": true,
+   "naive": 82217,
+   "lo": 21642.6364742601,
+   "hi": 92486.40026093122
+  },
+  {
+   "article": "The_End_of_Everything_(Harrison_novel)",
+   "method": "prior",
+   "forecast": 33430,
+   "guarded": true,
+   "naive": 80691,
+   "lo": 22408.90834326317,
+   "hi": 47428.59994692256
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 64023,
+   "guarded": true,
+   "naive": 79273,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Lauren_Boebert",
+   "method": "prior",
+   "forecast": 39536,
+   "guarded": true,
+   "naive": 78977,
+   "lo": 28468.345812098494,
+   "hi": 55024.76950436762
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 86363,
+   "guarded": true,
+   "naive": 78150,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Stephen_Miller",
+   "method": "formula",
+   "forecast": 81437,
+   "guarded": true,
+   "naive": 75876,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Pawan_Kalyan",
+   "method": "prior",
+   "forecast": 36915,
+   "guarded": true,
+   "naive": 73740,
+   "lo": 26580.5971382066,
+   "hi": 51376.05256279763
+  }
+ ]
+}
