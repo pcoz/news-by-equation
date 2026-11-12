@@ -1,0 +1,190 @@
+{
+ "issued_by_run": "20261111",
+ "provenance": {
+  "run_date": "20261111",
+  "generator": "nbe.run",
+  "prior_events": 4073
+ },
+ "forecasts": [
+  {
+   "article": "Ramayana:_Part_1",
+   "method": "formula",
+   "forecast": 779636,
+   "guarded": true,
+   "naive": 776693,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Stacy_Keach",
+   "method": "prior",
+   "forecast": 204918,
+   "guarded": true,
+   "naive": 562990,
+   "lo": 33915.26177311574,
+   "hi": 381158.9239455116
+  },
+  {
+   "article": "Jensen_Huang",
+   "method": "formula",
+   "forecast": 539195,
+   "guarded": false,
+   "naive": 341625,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "David_Walliams",
+   "method": "prior",
+   "forecast": 163104,
+   "guarded": true,
+   "naive": 325997,
+   "lo": 117542.23892028567,
+   "hi": 227122.92388706916
+  },
+  {
+   "article": "VisionQuest",
+   "method": "prior",
+   "forecast": 162580,
+   "guarded": true,
+   "naive": 240738,
+   "lo": 106568.40653180981,
+   "hi": 282571.12633194175
+  },
+  {
+   "article": "Mauricio_Pochettino",
+   "method": "formula",
+   "forecast": 508874,
+   "guarded": true,
+   "naive": 186714,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "SS_Edmund_Fitzgerald",
+   "method": "prior",
+   "forecast": 74029,
+   "guarded": true,
+   "naive": 147962,
+   "lo": 53349.523937715094,
+   "hi": 103085.49484865974
+  },
+  {
+   "article": "Dancing_with_the_Stars_(American_TV_series)_season_35",
+   "method": "prior",
+   "forecast": 70463,
+   "guarded": true,
+   "naive": 144202,
+   "lo": 38477.69186286659,
+   "hi": 157976.3547534599
+  },
+  {
+   "article": "Kirk_Cousins",
+   "method": "prior",
+   "forecast": 53542,
+   "guarded": true,
+   "naive": 129234,
+   "lo": 35889.91164855154,
+   "hi": 75961.23093703871
+  },
+  {
+   "article": "SS_United_States",
+   "method": "prior",
+   "forecast": 57435,
+   "guarded": true,
+   "naive": 117540,
+   "lo": 31363.420074349444,
+   "hi": 128767.56728562487
+  },
+  {
+   "article": "Kaviya_Maran",
+   "method": "prior",
+   "forecast": 49578,
+   "guarded": true,
+   "naive": 101460,
+   "lo": 27072.76332094176,
+   "hi": 111151.58564573336
+  },
+  {
+   "article": "James_Keach",
+   "method": "prior",
+   "forecast": 50532,
+   "guarded": true,
+   "naive": 99527,
+   "lo": 26199.28579702111,
+   "hi": 111958.52389128406
+  },
+  {
+   "article": "Lara_Stone",
+   "method": "prior",
+   "forecast": 45802,
+   "guarded": true,
+   "naive": 91545,
+   "lo": 33007.6787883249,
+   "hi": 63779.63008015947
+  },
+  {
+   "article": "Godzilla_Minus_Zero",
+   "method": "formula",
+   "forecast": 125930,
+   "guarded": true,
+   "naive": 90709,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Nvidia",
+   "method": "formula",
+   "forecast": 117929,
+   "guarded": true,
+   "naive": 87604,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Lucy_Beaumont_(comedian)",
+   "method": "prior",
+   "forecast": 58294,
+   "guarded": true,
+   "naive": 87015,
+   "lo": 45238.25102880659,
+   "hi": 75593.19138276554
+  },
+  {
+   "article": "Anirudh_Ravichander",
+   "method": "prior",
+   "forecast": 40291,
+   "guarded": true,
+   "naive": 82456,
+   "lo": 22001.890128046263,
+   "hi": 90332.29988177202
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 81568,
+   "guarded": true,
+   "naive": 82266,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Scott_Colom",
+   "method": "prior",
+   "forecast": 54684,
+   "guarded": true,
+   "naive": 80972,
+   "lo": 35844.1833598921,
+   "hi": 95042.53271751858
+  },
+  {
+   "article": "Pete_Hegseth",
+   "method": "formula",
+   "forecast": 104023,
+   "guarded": true,
+   "naive": 80358,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}
