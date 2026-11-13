@@ -1,0 +1,199 @@
+{
+ "issued_by_run": "20261112",
+ "provenance": {
+  "run_date": "20261112",
+  "generator": "nbe.run",
+  "prior_events": 4079
+ },
+ "forecasts": [
+  {
+   "article": "Jensen_Huang",
+   "method": "formula",
+   "forecast": 672421,
+   "guarded": false,
+   "naive": 1072168,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Ramayana:_Part_1",
+   "method": "formula",
+   "forecast": 773216,
+   "guarded": true,
+   "naive": 735438,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Colette_Kress",
+   "method": "prior",
+   "forecast": 167801,
+   "guarded": true,
+   "naive": 463931,
+   "lo": 35149.430173553046,
+   "hi": 313748.19458514603
+  },
+  {
+   "article": "Anthony_Clark_(actor)",
+   "method": "prior",
+   "forecast": 187674,
+   "guarded": true,
+   "naive": 374893,
+   "lo": 135209.25181140268,
+   "hi": 261182.73531720566
+  },
+  {
+   "article": "Nvidia",
+   "method": "prior",
+   "forecast": 186740,
+   "guarded": true,
+   "naive": 366417,
+   "lo": 96467.32031620553,
+   "hi": 412031.04866610916
+  },
+  {
+   "article": "SS_United_States",
+   "method": "prior",
+   "forecast": 120960,
+   "guarded": true,
+   "naive": 241627,
+   "lo": 87145.41452476785,
+   "hi": 168338.1679212214
+  },
+  {
+   "article": "Scott_Colom",
+   "method": "prior",
+   "forecast": 159023,
+   "guarded": true,
+   "naive": 235409,
+   "lo": 104274.41448870928,
+   "hi": 275932.7308277891
+  },
+  {
+   "article": "Mauricio_Pochettino",
+   "method": "formula",
+   "forecast": 177448,
+   "guarded": true,
+   "naive": 168183,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Dan_Hicks_(sportscaster)",
+   "method": "prior",
+   "forecast": 56820,
+   "guarded": true,
+   "naive": 157094,
+   "lo": 11902.124634232554,
+   "hi": 106239.84790876
+  },
+  {
+   "article": "Stacy_Keach",
+   "method": "prior",
+   "forecast": 46942,
+   "guarded": true,
+   "naive": 142036,
+   "lo": 38175.365106060795,
+   "hi": 59728.237439051154
+  },
+  {
+   "article": "David_Walliams",
+   "method": "formula",
+   "forecast": 325603,
+   "guarded": false,
+   "naive": 138004,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Tomb_of_the_Unknown_Soldier_(Arlington_National_Cemetery)",
+   "method": "prior",
+   "forecast": 57062,
+   "guarded": true,
+   "naive": 137779,
+   "lo": 38085.28982089846,
+   "hi": 80894.14194709387
+  },
+  {
+   "article": "Lisa_Su",
+   "method": "formula",
+   "forecast": 82091,
+   "guarded": false,
+   "naive": 136248,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Hannah_Storm",
+   "method": "prior",
+   "forecast": 46208,
+   "guarded": true,
+   "naive": 127755,
+   "lo": 9679.274400335977,
+   "hi": 86398.40967563137
+  },
+  {
+   "article": "Kaviya_Maran",
+   "method": "prior",
+   "forecast": 61929,
+   "guarded": true,
+   "naive": 123707,
+   "lo": 44616.27961533875,
+   "hi": 86184.94513870774
+  },
+  {
+   "article": "Cindy_Hyde-Smith",
+   "method": "prior",
+   "forecast": 75305,
+   "guarded": true,
+   "naive": 111477,
+   "lo": 49378.736173883946,
+   "hi": 130666.85230594176
+  },
+  {
+   "article": "Pete_Hegseth",
+   "method": "prior",
+   "forecast": 72745,
+   "guarded": true,
+   "naive": 107688,
+   "lo": 47700.398657061225,
+   "hi": 126225.60699626162
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 67575,
+   "guarded": true,
+   "naive": 107131,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Anirudh_Ravichander",
+   "method": "prior",
+   "forecast": 51397,
+   "guarded": true,
+   "naive": 102669,
+   "lo": 37028.69531899742,
+   "hi": 71528.06334682746
+  },
+  {
+   "article": "VisionQuest",
+   "method": "prior",
+   "forecast": 68421,
+   "guarded": true,
+   "naive": 102126,
+   "lo": 53143.14930366991,
+   "hi": 88705.6370270937
+  },
+  {
+   "article": "Chris_Malachowsky",
+   "method": "prior",
+   "forecast": 51041,
+   "guarded": true,
+   "naive": 100152,
+   "lo": 26367.212941289887,
+   "hi": 112619.5934850407
+  }
+ ]
+}
