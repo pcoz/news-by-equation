@@ -1,0 +1,145 @@
+{
+ "issued_by_run": "20261113",
+ "provenance": {
+  "run_date": "20261113",
+  "generator": "nbe.run",
+  "prior_events": 4079
+ },
+ "forecasts": [
+  {
+   "article": "Colette_Kress",
+   "method": "prior",
+   "forecast": 92287,
+   "guarded": true,
+   "naive": 279241,
+   "lo": 75052.29045862684,
+   "hi": 117424.96797092346
+  },
+  {
+   "article": "Nvidia",
+   "method": "prior",
+   "forecast": 104727,
+   "guarded": true,
+   "naive": 252871,
+   "lo": 69899.37016744507,
+   "hi": 148468.07255317265
+  },
+  {
+   "article": "Chris_Van_Hollen",
+   "method": "prior",
+   "forecast": 100153,
+   "guarded": true,
+   "naive": 204913,
+   "lo": 54721.49549695897,
+   "hi": 224358.57745610116
+  },
+  {
+   "article": "Sam_Hartman",
+   "method": "prior",
+   "forecast": 69292,
+   "guarded": true,
+   "naive": 191577,
+   "lo": 14514.70667913714,
+   "hi": 129560.08086124559
+  },
+  {
+   "article": "Mauricio_Pochettino",
+   "method": "formula",
+   "forecast": 175705,
+   "guarded": true,
+   "naive": 172224,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Avril_Lavigne",
+   "method": "prior",
+   "forecast": 59109,
+   "guarded": true,
+   "naive": 120937,
+   "lo": 32295.918272221512,
+   "hi": 132413.52809147545
+  },
+  {
+   "article": "Russell_Brand",
+   "method": "formula",
+   "forecast": 53327,
+   "guarded": true,
+   "naive": 112783,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Dan_Hicks_(sportscaster)",
+   "method": "prior",
+   "forecast": 35530,
+   "guarded": true,
+   "naive": 107505,
+   "lo": 28894.383295270673,
+   "hi": 45207.44153514035
+  },
+  {
+   "article": "Anthony_Clark_(actor)",
+   "method": "prior",
+   "forecast": 34961,
+   "guarded": true,
+   "naive": 105784,
+   "lo": 28431.82589188329,
+   "hi": 44483.73559697955
+  },
+  {
+   "article": "David_Walliams",
+   "method": "formula",
+   "forecast": 268614,
+   "guarded": false,
+   "naive": 97674,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Hannah_Storm",
+   "method": "prior",
+   "forecast": 31863,
+   "guarded": true,
+   "naive": 96412,
+   "lo": 25912.890398247862,
+   "hi": 40542.67106912191
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 69552,
+   "guarded": true,
+   "naive": 94514,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "SS_United_States",
+   "method": "formula",
+   "forecast": 167528,
+   "guarded": false,
+   "naive": 93568,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Scene_(2026_film)",
+   "method": "formula",
+   "forecast": 65487,
+   "guarded": true,
+   "naive": 82432,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Body_(TV_series)",
+   "method": "formula",
+   "forecast": 81125,
+   "guarded": true,
+   "naive": 79343,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}

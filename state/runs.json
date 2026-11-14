@@ -534,5 +534,41 @@
    "cache_hits": 1072,
    "errors": 0
   }
+ },
+ {
+  "date": "20261113",
+  "timings": {
+   "fetch": 114.56,
+   "verify": 0.1,
+   "prior": 0.45,
+   "tnn+ppf": 10.76,
+   "score": 0.09,
+   "holant+nrf": 4.2,
+   "nrf-counters": 0.17,
+   "petra": 10.2,
+   "lfc-claims": 0.03,
+   "total": 140.56,
+   "story": 0.0
+  },
+  "warnings": [
+   {
+    "stage": "tnn",
+    "error": "Alice_Huang_(executive): only 5 days of history"
+   },
+   {
+    "stage": "tnn",
+    "error": "Jensen_Huang_spying_scandal: only 4 days of history"
+   },
+   {
+    "stage": "tnn",
+    "error": "2026_Streamer_Awards: only 28 days of history"
+   }
+  ],
+  "stories": 24,
+  "fetch": {
+   "requests": 448,
+   "cache_hits": 1088,
+   "errors": 0
+  }
  }
 ]
