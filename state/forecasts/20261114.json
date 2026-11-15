@@ -1,0 +1,190 @@
+{
+ "issued_by_run": "20261114",
+ "provenance": {
+  "run_date": "20261114",
+  "generator": "nbe.run",
+  "prior_events": 4085
+ },
+ "forecasts": [
+  {
+   "article": "Ramayana:_Part_1",
+   "method": "formula",
+   "forecast": 497729,
+   "guarded": true,
+   "naive": 581992,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Sean_Duffy",
+   "method": "prior",
+   "forecast": 217191,
+   "guarded": true,
+   "naive": 434101,
+   "lo": 156434.88180449666,
+   "hi": 302424.99909990997
+  },
+  {
+   "article": "Markwayne_Mullin",
+   "method": "prior",
+   "forecast": 56774,
+   "guarded": true,
+   "naive": 113475,
+   "lo": 40892.43796435682,
+   "hi": 79054.5904590459
+  },
+  {
+   "article": "Nvidia",
+   "method": "formula",
+   "forecast": 38847,
+   "guarded": true,
+   "naive": 110648,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Sam_Hartman",
+   "method": "prior",
+   "forecast": 34830,
+   "guarded": true,
+   "naive": 105388,
+   "lo": 28325.391997786017,
+   "hi": 44317.21174368979
+  },
+  {
+   "article": "Colette_Kress",
+   "method": "formula",
+   "forecast": 282475,
+   "guarded": false,
+   "naive": 104257,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Russell_Brand",
+   "method": "formula",
+   "forecast": 68069,
+   "guarded": false,
+   "naive": 104051,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Avril_Lavigne",
+   "method": "prior",
+   "forecast": 50929,
+   "guarded": true,
+   "naive": 101792,
+   "lo": 36682.29165250328,
+   "hi": 70915.39873987398
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 71233,
+   "guarded": true,
+   "naive": 94125,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Body_(TV_series)",
+   "method": "formula",
+   "forecast": 84957,
+   "guarded": true,
+   "naive": 90665,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Rachel_Campos-Duffy",
+   "method": "prior",
+   "forecast": 57911,
+   "guarded": true,
+   "naive": 86460,
+   "lo": 44948.5356606036,
+   "hi": 75098.303834112
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 72753,
+   "guarded": true,
+   "naive": 80657,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Scene_(2026_film)",
+   "method": "formula",
+   "forecast": 67442,
+   "guarded": true,
+   "naive": 78536,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Ebenezer_(2026_film)",
+   "method": "formula",
+   "forecast": 98004,
+   "guarded": true,
+   "naive": 78001,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "James_Botham",
+   "method": "prior",
+   "forecast": 27216,
+   "guarded": true,
+   "naive": 75245,
+   "lo": 5700.888436877465,
+   "hi": 50886.84071889853
+  },
+  {
+   "article": "Mauricio_Pochettino",
+   "method": "formula",
+   "forecast": 150300,
+   "guarded": true,
+   "naive": 74070,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Grand_Theft_Auto_VI",
+   "method": "formula",
+   "forecast": 74002,
+   "guarded": true,
+   "naive": 72813,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_End_of_Oak_Street",
+   "method": "prior",
+   "forecast": 48139,
+   "guarded": true,
+   "naive": 71870,
+   "lo": 37363.53525245872,
+   "hi": 62425.57363587358
+  },
+  {
+   "article": "Eurovision_Song_Contest_Asia",
+   "method": "prior",
+   "forecast": 47942,
+   "guarded": true,
+   "naive": 71577,
+   "lo": 37211.21139230886,
+   "hi": 62171.07672373623
+  },
+  {
+   "article": "UFC_334",
+   "method": "prior",
+   "forecast": 46315,
+   "guarded": true,
+   "naive": 69147,
+   "lo": 35947.91111871105,
+   "hi": 60060.40267426952
+  }
+ ]
+}

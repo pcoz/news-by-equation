@@ -570,5 +570,37 @@
    "cache_hits": 1088,
    "errors": 0
   }
+ },
+ {
+  "date": "20261114",
+  "timings": {
+   "fetch": 101.82,
+   "verify": 0.12,
+   "prior": 0.95,
+   "tnn+ppf": 12.47,
+   "score": 0.09,
+   "holant+nrf": 6.87,
+   "nrf-counters": 0.21,
+   "petra": 9.53,
+   "lfc-claims": 0.03,
+   "total": 132.1,
+   "story": 0.0
+  },
+  "warnings": [
+   {
+    "stage": "tnn",
+    "error": "Alice_Huang_(executive): only 6 days of history"
+   },
+   {
+    "stage": "tnn",
+    "error": "2026_FAA_communication_outage: only 2 days of history"
+   }
+  ],
+  "stories": 24,
+  "fetch": {
+   "requests": 461,
+   "cache_hits": 1084,
+   "errors": 0
+  }
  }
 ]
