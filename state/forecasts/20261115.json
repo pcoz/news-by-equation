@@ -1,0 +1,208 @@
+{
+ "issued_by_run": "20261115",
+ "provenance": {
+  "run_date": "20261115",
+  "generator": "nbe.run",
+  "prior_events": 4105
+ },
+ "forecasts": [
+  {
+   "article": "Archive_of_Our_Own",
+   "method": "prior",
+   "forecast": 420687,
+   "guarded": true,
+   "naive": 860729,
+   "lo": 230226.58345169196,
+   "hi": 943088.1180010654
+  },
+  {
+   "article": "9/11",
+   "method": "prior",
+   "forecast": 241884,
+   "guarded": true,
+   "naive": 673012,
+   "lo": 61437.49955076176,
+   "hi": 454645.14240519237
+  },
+  {
+   "article": "Ramayana:_Part_1",
+   "method": "formula",
+   "forecast": 539718,
+   "guarded": true,
+   "naive": 591692,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "UFC_334",
+   "method": "prior",
+   "forecast": 215147,
+   "guarded": true,
+   "naive": 321149,
+   "lo": 166953.49895665035,
+   "hi": 279011.17402257357
+  },
+  {
+   "article": "Full_Gear_(2026)",
+   "method": "prior",
+   "forecast": 85929,
+   "guarded": true,
+   "naive": 175811,
+   "lo": 47025.67923611894,
+   "hi": 192633.5293848416
+  },
+  {
+   "article": "Josh_Hokit",
+   "method": "prior",
+   "forecast": 82238,
+   "guarded": true,
+   "naive": 168260,
+   "lo": 45005.94836653777,
+   "hi": 184360.00963701613
+  },
+  {
+   "article": "Sean_Duffy",
+   "method": "prior",
+   "forecast": 66695,
+   "guarded": true,
+   "naive": 161039,
+   "lo": 44700.2745517567,
+   "hi": 94550.77860209502
+  },
+  {
+   "article": "Kayla_Harrison",
+   "method": "prior",
+   "forecast": 71111,
+   "guarded": true,
+   "naive": 145493,
+   "lo": 38916.26319798336,
+   "hi": 159414.54226862232
+  },
+  {
+   "article": "Kirk_Cousins",
+   "method": "prior",
+   "forecast": 59383,
+   "guarded": true,
+   "naive": 121498,
+   "lo": 32498.11431497448,
+   "hi": 133123.57334409954
+  },
+  {
+   "article": "The_Body_(TV_series)",
+   "method": "formula",
+   "forecast": 126554,
+   "guarded": true,
+   "naive": 120538,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 74448,
+   "guarded": true,
+   "naive": 115753,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Amon-Ra_St._Brown",
+   "method": "prior",
+   "forecast": 54903,
+   "guarded": true,
+   "naive": 112331,
+   "lo": 30046.13803614379,
+   "hi": 123079.4261413031
+  },
+  {
+   "article": "Russell_Brand",
+   "method": "formula",
+   "forecast": 79565,
+   "guarded": true,
+   "naive": 109938,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Stephen_Thompson_(fighter)",
+   "method": "prior",
+   "forecast": 54156,
+   "guarded": true,
+   "naive": 106236,
+   "lo": 27985.30022618524,
+   "hi": 125154.87522015741
+  },
+  {
+   "article": "Ebenezer_(2026_film)",
+   "method": "formula",
+   "forecast": 105105,
+   "guarded": true,
+   "naive": 98174,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Richard_Sterban",
+   "method": "prior",
+   "forecast": 48128,
+   "guarded": true,
+   "naive": 96199,
+   "lo": 34627.02390120541,
+   "hi": 66965.40924717471
+  },
+  {
+   "article": "Amanda_Nunes",
+   "method": "prior",
+   "forecast": 46633,
+   "guarded": true,
+   "naive": 95411,
+   "lo": 25520.400211575747,
+   "hi": 104540.43075880986
+  },
+  {
+   "article": "Ciryl_Gane",
+   "method": "prior",
+   "forecast": 44018,
+   "guarded": true,
+   "naive": 90061,
+   "lo": 24089.389729221195,
+   "hi": 98678.51437013735
+  },
+  {
+   "article": "John_Mulaney",
+   "method": "prior",
+   "forecast": 43728,
+   "guarded": true,
+   "naive": 89468,
+   "lo": 23930.774922485445,
+   "hi": 98028.77298350506
+  },
+  {
+   "article": "Arch_Manning",
+   "method": "prior",
+   "forecast": 40690,
+   "guarded": true,
+   "naive": 83253,
+   "lo": 22268.395455600672,
+   "hi": 91219.08880488829
+  },
+  {
+   "article": "Jailer_2",
+   "method": "formula",
+   "forecast": 71386,
+   "guarded": true,
+   "naive": 82569,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Grand_Theft_Auto_VI",
+   "method": "formula",
+   "forecast": 78389,
+   "guarded": true,
+   "naive": 82149,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}
