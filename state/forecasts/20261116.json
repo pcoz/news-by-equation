@@ -1,0 +1,208 @@
+{
+ "issued_by_run": "20261116",
+ "provenance": {
+  "run_date": "20261116",
+  "generator": "nbe.run",
+  "prior_events": 4115
+ },
+ "forecasts": [
+  {
+   "article": "Robert_Pattinson",
+   "method": "prior",
+   "forecast": 697683,
+   "guarded": true,
+   "naive": 1363657,
+   "lo": 359280.9319672956,
+   "hi": 1604339.340627561
+  },
+  {
+   "article": "Ramayana:_Part_1",
+   "method": "formula",
+   "forecast": 526190,
+   "guarded": true,
+   "naive": 551941,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Archive_of_Our_Own",
+   "method": "prior",
+   "forecast": 231966,
+   "guarded": true,
+   "naive": 463687,
+   "lo": 166968.92861970267,
+   "hi": 322520.7644889489
+  },
+  {
+   "article": "Suki_Waterhouse",
+   "method": "prior",
+   "forecast": 193880,
+   "guarded": true,
+   "naive": 378948,
+   "lo": 99840.93551908048,
+   "hi": 445831.45501554495
+  },
+  {
+   "article": "Robert_Pattinson_filmography",
+   "method": "prior",
+   "forecast": 97792,
+   "guarded": true,
+   "naive": 191139,
+   "lo": 50359.14313885156,
+   "hi": 224874.59619846588
+  },
+  {
+   "article": "Saturn_Devouring_His_Son",
+   "method": "prior",
+   "forecast": 90126,
+   "guarded": true,
+   "naive": 176155,
+   "lo": 46411.3281937459,
+   "hi": 207245.9544799374
+  },
+  {
+   "article": "Jensen_Huang",
+   "method": "formula",
+   "forecast": 66701,
+   "guarded": true,
+   "naive": 162987,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Body_(TV_series)",
+   "method": "formula",
+   "forecast": 152264,
+   "guarded": true,
+   "naive": 136145,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Mordechai_Vanunu",
+   "method": "prior",
+   "forecast": 47677,
+   "guarded": true,
+   "naive": 132656,
+   "lo": 12703.863981778135,
+   "hi": 88727.93436011397
+  },
+  {
+   "article": "Russell_Brand",
+   "method": "formula",
+   "forecast": 91608,
+   "guarded": true,
+   "naive": 127981,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Sharad_Kapoor",
+   "method": "formula",
+   "forecast": 65140,
+   "guarded": false,
+   "naive": 118510,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Daniel_Craig",
+   "method": "prior",
+   "forecast": 52719,
+   "guarded": true,
+   "naive": 107838,
+   "lo": 28867.603245957147,
+   "hi": 118138.82015439183
+  },
+  {
+   "article": "Sean_Duffy",
+   "method": "formula",
+   "forecast": 232569,
+   "guarded": false,
+   "naive": 102558,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "2026–27_UEFA_Nations_League",
+   "method": "prior",
+   "forecast": 50317,
+   "guarded": true,
+   "naive": 100581,
+   "lo": 36218.185563749495,
+   "hi": 69959.824219922
+  },
+  {
+   "article": "John_Malkovich",
+   "method": "prior",
+   "forecast": 63769,
+   "guarded": true,
+   "naive": 93805,
+   "lo": 41822.72319373806,
+   "hi": 111125.77042917884
+  },
+  {
+   "article": "69th_Annual_Grammy_Awards",
+   "method": "prior",
+   "forecast": 47454,
+   "guarded": true,
+   "naive": 92752,
+   "lo": 24437.248517648204,
+   "hi": 109122.51579531183
+  },
+  {
+   "article": "Ebenezer_(2026_film)",
+   "method": "formula",
+   "forecast": 91828,
+   "guarded": true,
+   "naive": 87439,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 74848,
+   "guarded": true,
+   "naive": 84504,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Kirk_Cousins",
+   "method": "prior",
+   "forecast": 38480,
+   "guarded": true,
+   "naive": 76919,
+   "lo": 27697.742271184892,
+   "hi": 53501.55316781678
+  },
+  {
+   "article": "Lizzy_Pattinson",
+   "method": "prior",
+   "forecast": 39162,
+   "guarded": true,
+   "naive": 76545,
+   "lo": 20167.211356988333,
+   "hi": 90055.0173748506
+  },
+  {
+   "article": "James_Bond",
+   "method": "prior",
+   "forecast": 37164,
+   "guarded": true,
+   "naive": 76019,
+   "lo": 20349.84264502695,
+   "hi": 83280.42961958412
+  },
+  {
+   "article": "Joe_Burrow",
+   "method": "prior",
+   "forecast": 36942,
+   "guarded": true,
+   "naive": 75566,
+   "lo": 20228.577188783154,
+   "hi": 82784.15849502747
+  }
+ ]
+}
