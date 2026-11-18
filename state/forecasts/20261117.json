@@ -1,0 +1,217 @@
+{
+ "issued_by_run": "20261117",
+ "provenance": {
+  "run_date": "20261117",
+  "generator": "nbe.run",
+  "prior_events": 4135
+ },
+ "forecasts": [
+  {
+   "article": "Robert_Pattinson",
+   "method": "prior",
+   "forecast": 345974,
+   "guarded": true,
+   "naive": 840972,
+   "lo": 232190.90635480836,
+   "hi": 494306.98038893257
+  },
+  {
+   "article": "Ramayana:_Part_1",
+   "method": "formula",
+   "forecast": 447714,
+   "guarded": true,
+   "naive": 452299,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Suki_Waterhouse",
+   "method": "prior",
+   "forecast": 122200,
+   "guarded": true,
+   "naive": 297037,
+   "lo": 82011.39901318144,
+   "hi": 174592.56970955915
+  },
+  {
+   "article": "Grand_Theft_Auto_VI",
+   "method": "formula",
+   "forecast": 161248,
+   "guarded": true,
+   "naive": 153037,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Jensen_Huang",
+   "method": "formula",
+   "forecast": 85897,
+   "guarded": true,
+   "naive": 144823,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Body_(TV_series)",
+   "method": "formula",
+   "forecast": 144336,
+   "guarded": true,
+   "naive": 127281,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Robert_Pattinson_filmography",
+   "method": "prior",
+   "forecast": 52294,
+   "guarded": true,
+   "naive": 127113,
+   "lo": 35095.6781908063,
+   "hi": 74714.54840134794
+  },
+  {
+   "article": "Saturn_Devouring_His_Son",
+   "method": "prior",
+   "forecast": 44703,
+   "guarded": true,
+   "naive": 108660,
+   "lo": 30000.83698923802,
+   "hi": 63868.23400667491
+  },
+  {
+   "article": "Daniel_Craig",
+   "method": "prior",
+   "forecast": 50743,
+   "guarded": true,
+   "naive": 101483,
+   "lo": 36514.88116092878,
+   "hi": 70530.76111986199
+  },
+  {
+   "article": "Ray_Tintori",
+   "method": "prior",
+   "forecast": 35458,
+   "guarded": true,
+   "naive": 98033,
+   "lo": 9607.676582157745,
+   "hi": 65878.027978783
+  },
+  {
+   "article": "Jacoby_Brissett",
+   "method": "prior",
+   "forecast": 46883,
+   "guarded": true,
+   "naive": 95821,
+   "lo": 25659.254154433373,
+   "hi": 105021.10252704618
+  },
+  {
+   "article": "2026–27_UEFA_Nations_League",
+   "method": "formula",
+   "forecast": 104990,
+   "guarded": true,
+   "naive": 93874,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Sean_Duffy",
+   "method": "formula",
+   "forecast": 197749,
+   "guarded": false,
+   "naive": 93303,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Hunger_Games:_Sunrise_on_the_Reaping",
+   "method": "prior",
+   "forecast": 63273,
+   "guarded": true,
+   "naive": 92631,
+   "lo": 41426.81453494706,
+   "hi": 110057.15220976324
+  },
+  {
+   "article": "Russell_Brand",
+   "method": "formula",
+   "forecast": 89881,
+   "guarded": true,
+   "naive": 86201,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Mariella_Frostrup",
+   "method": "prior",
+   "forecast": 42590,
+   "guarded": true,
+   "naive": 85178,
+   "lo": 30648.13365317927,
+   "hi": 59198.77388988899
+  },
+  {
+   "article": "Heidi_Gardner",
+   "method": "prior",
+   "forecast": 43105,
+   "guarded": true,
+   "naive": 83061,
+   "lo": 21901.412854731178,
+   "hi": 97984.50526908504
+  },
+  {
+   "article": "James_Bond",
+   "method": "prior",
+   "forecast": 37982,
+   "guarded": true,
+   "naive": 75962,
+   "lo": 27332.098999305028,
+   "hi": 52793.64697719772
+  },
+  {
+   "article": "Ade_Adepitan",
+   "method": "prior",
+   "forecast": 35045,
+   "guarded": true,
+   "naive": 70088,
+   "lo": 25218.558682805757,
+   "hi": 48711.21257125713
+  },
+  {
+   "article": "John_Christ",
+   "method": "prior",
+   "forecast": 25008,
+   "guarded": true,
+   "naive": 69141,
+   "lo": 6776.1301456343135,
+   "hi": 46462.6476031646
+  },
+  {
+   "article": "Pierce_Brosnan",
+   "method": "prior",
+   "forecast": 44062,
+   "guarded": true,
+   "naive": 65735,
+   "lo": 34216.89882697947,
+   "hi": 57192.64651504407
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 70590,
+   "guarded": true,
+   "naive": 64085,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Crimean_Bridge",
+   "method": "prior",
+   "forecast": 26229,
+   "guarded": true,
+   "naive": 63755,
+   "lo": 17602.644600118445,
+   "hi": 37473.94863883268
+  }
+ ]
+}

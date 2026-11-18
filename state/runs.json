@@ -648,5 +648,33 @@
    "cache_hits": 1025,
    "errors": 0
   }
+ },
+ {
+  "date": "20261117",
+  "timings": {
+   "fetch": 82.98,
+   "verify": 0.09,
+   "prior": 0.72,
+   "tnn+ppf": 6.18,
+   "score": 0.18,
+   "holant+nrf": 6.99,
+   "nrf-counters": 0.09,
+   "petra": 7.61,
+   "lfc-claims": 0.02,
+   "total": 104.86,
+   "story": 0.0
+  },
+  "warnings": [
+   {
+    "stage": "tnn",
+    "error": "Sara_Boustany: only 7 days of history"
+   }
+  ],
+  "stories": 24,
+  "fetch": {
+   "requests": 457,
+   "cache_hits": 1091,
+   "errors": 0
+  }
  }
 ]
