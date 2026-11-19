@@ -1,0 +1,208 @@
+{
+ "issued_by_run": "20261118",
+ "provenance": {
+  "run_date": "20261118",
+  "generator": "nbe.run",
+  "prior_events": 4152
+ },
+ "forecasts": [
+  {
+   "article": "Grand_Theft_Auto_VI",
+   "method": "prior",
+   "forecast": 353971,
+   "guarded": true,
+   "naive": 519632,
+   "lo": 232306.6345618308,
+   "hi": 616946.2021809183
+  },
+  {
+   "article": "Ramayana:_Part_1",
+   "method": "formula",
+   "forecast": 383772,
+   "guarded": true,
+   "naive": 410267,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Robert_Pattinson",
+   "method": "formula",
+   "forecast": 847365,
+   "guarded": false,
+   "naive": 337514,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Dancing_with_the_Stars_(American_TV_series)_season_35",
+   "method": "prior",
+   "forecast": 73821,
+   "guarded": true,
+   "naive": 150752,
+   "lo": 40409.12100628931,
+   "hi": 165250.948428262
+  },
+  {
+   "article": "Suki_Waterhouse",
+   "method": "formula",
+   "forecast": 274291,
+   "guarded": false,
+   "naive": 146794,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Mary_Peltola",
+   "method": "prior",
+   "forecast": 90868,
+   "guarded": true,
+   "naive": 133395,
+   "lo": 59635.55654265985,
+   "hi": 158376.5792713374
+  },
+  {
+   "article": "The_Body_(TV_series)",
+   "method": "formula",
+   "forecast": 136173,
+   "guarded": true,
+   "naive": 124563,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Grand_Theft_Auto",
+   "method": "prior",
+   "forecast": 75387,
+   "guarded": true,
+   "naive": 110668,
+   "lo": 49475.225993950895,
+   "hi": 131393.37512500744
+  },
+  {
+   "article": "Jensen_Huang",
+   "method": "formula",
+   "forecast": 83619,
+   "guarded": true,
+   "naive": 109002,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Hunger_Games:_Sunrise_on_the_Reaping",
+   "method": "prior",
+   "forecast": 68167,
+   "guarded": true,
+   "naive": 101703,
+   "lo": 52873.01552498691,
+   "hi": 88488.62120156841
+  },
+  {
+   "article": "Hunter_Schafer",
+   "method": "prior",
+   "forecast": 67942,
+   "guarded": true,
+   "naive": 101368,
+   "lo": 52698.85684529338,
+   "hi": 88197.14810733791
+  },
+  {
+   "article": "Andrej_Stojaković",
+   "method": "prior",
+   "forecast": 35242,
+   "guarded": true,
+   "naive": 97435,
+   "lo": 9549.069882412452,
+   "hi": 65476.17288171046
+  },
+  {
+   "article": "Hakeem_Jeffries",
+   "method": "formula",
+   "forecast": 31006,
+   "guarded": false,
+   "naive": 92218,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Grand_Theft_Auto_V",
+   "method": "prior",
+   "forecast": 55415,
+   "guarded": true,
+   "naive": 81349,
+   "lo": 36367.876526022985,
+   "hi": 96583.652664223
+  },
+  {
+   "article": "Rockstar_Games",
+   "method": "prior",
+   "forecast": 54035,
+   "guarded": true,
+   "naive": 79323,
+   "lo": 35462.13315066837,
+   "hi": 94178.23304876717
+  },
+  {
+   "article": "Russell_Brand",
+   "method": "formula",
+   "forecast": 85853,
+   "guarded": true,
+   "naive": 69384,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Quentin_Grimes",
+   "method": "prior",
+   "forecast": 35546,
+   "guarded": true,
+   "naive": 67780,
+   "lo": 17860.817698123774,
+   "hi": 80065.4623618619
+  },
+  {
+   "article": "Tatyana_Ali",
+   "method": "prior",
+   "forecast": 31333,
+   "guarded": true,
+   "naive": 63987,
+   "lo": 17151.73547169811,
+   "hi": 70141.10882163554
+  },
+  {
+   "article": "2026_United_States_elections",
+   "method": "formula",
+   "forecast": 53384,
+   "guarded": false,
+   "naive": 62638,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Ade_Adepitan",
+   "method": "formula",
+   "forecast": 66311,
+   "guarded": true,
+   "naive": 62084,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Anne_Hathaway",
+   "method": "prior",
+   "forecast": 41841,
+   "guarded": true,
+   "naive": 61423,
+   "lo": 27459.760782036774,
+   "hi": 72926.00643639834
+  },
+  {
+   "article": "2026_United_States_Senate_elections",
+   "method": "formula",
+   "forecast": 42544,
+   "guarded": false,
+   "naive": 60456,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}

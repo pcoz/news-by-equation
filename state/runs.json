@@ -676,5 +676,28 @@
    "cache_hits": 1091,
    "errors": 0
   }
+ },
+ {
+  "date": "20261118",
+  "timings": {
+   "fetch": 81.61,
+   "verify": 0.07,
+   "prior": 1.06,
+   "tnn+ppf": 5.95,
+   "score": 0.39,
+   "holant+nrf": 9.3,
+   "nrf-counters": 0.17,
+   "petra": 8.0,
+   "lfc-claims": 0.02,
+   "total": 106.57,
+   "story": 0.0
+  },
+  "warnings": [],
+  "stories": 24,
+  "fetch": {
+   "requests": 468,
+   "cache_hits": 1089,
+   "errors": 0
+  }
  }
 ]
