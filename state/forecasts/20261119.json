@@ -1,0 +1,217 @@
+{
+ "issued_by_run": "20261119",
+ "provenance": {
+  "run_date": "20261119",
+  "generator": "nbe.run",
+  "prior_events": 4182
+ },
+ "forecasts": [
+  {
+   "article": "Grand_Theft_Auto_VI",
+   "method": "prior",
+   "forecast": 502728,
+   "guarded": true,
+   "naive": 750227,
+   "lo": 390941.5618496542,
+   "hi": 652629.5322604232
+  },
+  {
+   "article": "Ramayana:_Part_1",
+   "method": "formula",
+   "forecast": 335196,
+   "guarded": true,
+   "naive": 371581,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Stephen_Wilson_Jr.",
+   "method": "prior",
+   "forecast": 170199,
+   "guarded": true,
+   "naive": 327962,
+   "lo": 86407.72057039138,
+   "hi": 385846.5426649782
+  },
+  {
+   "article": "Ella_Langley",
+   "method": "prior",
+   "forecast": 92861,
+   "guarded": true,
+   "naive": 189264,
+   "lo": 50889.91022915303,
+   "hi": 207619.1239611392
+  },
+  {
+   "article": "Ken_McElroy",
+   "method": "prior",
+   "forecast": 66401,
+   "guarded": true,
+   "naive": 172820,
+   "lo": 17602.452451983845,
+   "hi": 118884.79324644613
+  },
+  {
+   "article": "Robert_Pattinson",
+   "method": "formula",
+   "forecast": 678726,
+   "guarded": false,
+   "naive": 172742,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Grand_Theft_Auto",
+   "method": "prior",
+   "forecast": 114783,
+   "guarded": true,
+   "naive": 171292,
+   "lo": 89259.86669681438,
+   "hi": 149008.52387337753
+  },
+  {
+   "article": "Dario_Amodei",
+   "method": "prior",
+   "forecast": 82427,
+   "guarded": true,
+   "naive": 167998,
+   "lo": 45171.840068249905,
+   "hi": 184290.71343321216
+  },
+  {
+   "article": "Larry_Poindexter",
+   "method": "prior",
+   "forecast": 83343,
+   "guarded": true,
+   "naive": 124373,
+   "lo": 64810.48385612227,
+   "hi": 108193.24393260389
+  },
+  {
+   "article": "The_Hunger_Games:_Sunrise_on_the_Reaping",
+   "method": "formula",
+   "forecast": 125758,
+   "guarded": true,
+   "naive": 121672,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "International_Men's_Day",
+   "method": "prior",
+   "forecast": 58844,
+   "guarded": true,
+   "naive": 118074,
+   "lo": 42392.16153307665,
+   "hi": 81995.83333333333
+  },
+  {
+   "article": "Rockstar_Games",
+   "method": "prior",
+   "forecast": 75630,
+   "guarded": true,
+   "naive": 112864,
+   "lo": 58813.170462539165,
+   "hi": 98181.45645123463
+  },
+  {
+   "article": "Anthropic",
+   "method": "prior",
+   "forecast": 55051,
+   "guarded": true,
+   "naive": 112202,
+   "lo": 30169.232963117276,
+   "hi": 123083.52854577597
+  },
+  {
+   "article": "The_Body_(TV_series)",
+   "method": "formula",
+   "forecast": 127369,
+   "guarded": true,
+   "naive": 111521,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Grand_Theft_Auto_V",
+   "method": "prior",
+   "forecast": 72620,
+   "guarded": true,
+   "naive": 108371,
+   "lo": 56471.87851038269,
+   "hi": 94272.95344021785
+  },
+  {
+   "article": "John_Madden",
+   "method": "prior",
+   "forecast": 50853,
+   "guarded": true,
+   "naive": 102039,
+   "lo": 36635.108242912145,
+   "hi": 70860.41666666666
+  },
+  {
+   "article": "Leigh_Nash",
+   "method": "prior",
+   "forecast": 49501,
+   "guarded": true,
+   "naive": 95384,
+   "lo": 25130.69812626527,
+   "hi": 112219.05777363316
+  },
+  {
+   "article": "Daniela_Amodei",
+   "method": "prior",
+   "forecast": 45231,
+   "guarded": true,
+   "naive": 92187,
+   "lo": 24787.53568716148,
+   "hi": 101127.44198899707
+  },
+  {
+   "article": "Lainey_Wilson",
+   "method": "prior",
+   "forecast": 42570,
+   "guarded": true,
+   "naive": 86763,
+   "lo": 23329.11320278555,
+   "hi": 95177.41383591344
+  },
+  {
+   "article": "Fiona_(hippopotamus)",
+   "method": "prior",
+   "forecast": 34216,
+   "guarded": true,
+   "naive": 83965,
+   "lo": 23141.408867715065,
+   "hi": 49243.69586445989
+  },
+  {
+   "article": "Susan_Smith",
+   "method": "prior",
+   "forecast": 42327,
+   "guarded": true,
+   "naive": 81561,
+   "lo": 21488.77033754426,
+   "hi": 95956.3298988855
+  },
+  {
+   "article": "Hakeem_Jeffries",
+   "method": "formula",
+   "forecast": 35120,
+   "guarded": false,
+   "naive": 76486,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Suki_Waterhouse",
+   "method": "formula",
+   "forecast": 224529,
+   "guarded": false,
+   "naive": 75449,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}
