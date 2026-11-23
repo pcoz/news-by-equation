@@ -1,0 +1,208 @@
+{
+ "issued_by_run": "20261122",
+ "provenance": {
+  "run_date": "20261122",
+  "generator": "nbe.run",
+  "prior_events": 4232
+ },
+ "forecasts": [
+  {
+   "article": "Ramayana:_Part_1",
+   "method": "formula",
+   "forecast": 312841,
+   "guarded": true,
+   "naive": 384249,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Grand_Theft_Auto_VI",
+   "method": "formula",
+   "forecast": 309332,
+   "guarded": true,
+   "naive": 308867,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Tom_Jackson_(American_football,_born_1951)",
+   "method": "prior",
+   "forecast": 103690,
+   "guarded": true,
+   "naive": 263973,
+   "lo": 29120.33143755304,
+   "hi": 179729.5708483711
+  },
+  {
+   "article": "The_Hunger_Games:_Sunrise_on_the_Reaping",
+   "method": "formula",
+   "forecast": 266970,
+   "guarded": true,
+   "naive": 222399,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Riemann_hypothesis",
+   "method": "formula",
+   "forecast": 297037,
+   "guarded": true,
+   "naive": 205793,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Miley_Cyrus",
+   "method": "prior",
+   "forecast": 83725,
+   "guarded": true,
+   "naive": 170642,
+   "lo": 46024.89274447949,
+   "hi": 187265.29539106146
+  },
+  {
+   "article": "The_Body_(TV_series)",
+   "method": "formula",
+   "forecast": 107559,
+   "guarded": true,
+   "naive": 112346,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "S_Club",
+   "method": "prior",
+   "forecast": 53699,
+   "guarded": true,
+   "naive": 104957,
+   "lo": 27674.920708804617,
+   "hi": 123138.35777811242
+  },
+  {
+   "article": "Joseph_Zada",
+   "method": "formula",
+   "forecast": 131902,
+   "guarded": true,
+   "naive": 98864,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Robert_Pattinson",
+   "method": "formula",
+   "forecast": 53325,
+   "guarded": true,
+   "naive": 96131,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 62492,
+   "guarded": true,
+   "naive": 89425,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Grand_Theft_Auto",
+   "method": "formula",
+   "forecast": 33248,
+   "guarded": true,
+   "naive": 85598,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Mckenna_Grace",
+   "method": "formula",
+   "forecast": 83905,
+   "guarded": true,
+   "naive": 79779,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 50804,
+   "guarded": false,
+   "naive": 79673,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Sunrise_on_the_Reaping",
+   "method": "formula",
+   "forecast": 95088,
+   "guarded": true,
+   "naive": 78767,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Mauricio_Pochettino",
+   "method": "formula",
+   "forecast": 35178,
+   "guarded": false,
+   "naive": 77374,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "John_Madden",
+   "method": "formula",
+   "forecast": 82444,
+   "guarded": true,
+   "naive": 76290,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Sam_Bankman-Fried",
+   "method": "formula",
+   "forecast": 77692,
+   "guarded": true,
+   "naive": 74746,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Hunger_Games:_The_Ballad_of_Songbirds_&_Snakes",
+   "method": "formula",
+   "forecast": 96847,
+   "guarded": true,
+   "naive": 74573,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "John_Tuggle",
+   "method": "prior",
+   "forecast": 34991,
+   "guarded": true,
+   "naive": 71317,
+   "lo": 19235.342271293375,
+   "hi": 78264.43121508381
+  },
+  {
+   "article": "Maxx_Morando",
+   "method": "prior",
+   "forecast": 27752,
+   "guarded": true,
+   "naive": 70652,
+   "lo": 7794.015511912194,
+   "hi": 48104.36536910637
+  },
+  {
+   "article": "Mariella_Frostrup",
+   "method": "formula",
+   "forecast": 54509,
+   "guarded": true,
+   "naive": 70535,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}
