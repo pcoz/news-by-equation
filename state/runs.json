@@ -750,5 +750,33 @@
    "cache_hits": 1040,
    "errors": 0
   }
+ },
+ {
+  "date": "20261124",
+  "timings": {
+   "fetch": 84.11,
+   "verify": 0.12,
+   "prior": 1.13,
+   "tnn+ppf": 20.08,
+   "score": 0.0,
+   "holant+nrf": 6.04,
+   "nrf-counters": 0.13,
+   "petra": 10.24,
+   "lfc-claims": 0.03,
+   "total": 121.89,
+   "story": 0.0
+  },
+  "warnings": [
+   {
+    "stage": "tnn",
+    "error": "O.M:_Operation_Mole: only 11 days of history"
+   }
+  ],
+  "stories": 24,
+  "fetch": {
+   "requests": 471,
+   "cache_hits": 1112,
+   "errors": 0
+  }
  }
 ]

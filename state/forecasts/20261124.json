@@ -1,0 +1,190 @@
+{
+ "issued_by_run": "20261124",
+ "provenance": {
+  "run_date": "20261124",
+  "generator": "nbe.run",
+  "prior_events": 4250
+ },
+ "forecasts": [
+  {
+   "article": "Ramayana:_Part_1",
+   "method": "formula",
+   "forecast": 301160,
+   "guarded": true,
+   "naive": 305811,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Jensen_Huang",
+   "method": "formula",
+   "forecast": 100836,
+   "guarded": false,
+   "naive": 254240,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Grand_Theft_Auto_VI",
+   "method": "formula",
+   "forecast": 183329,
+   "guarded": true,
+   "naive": 198339,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Hunger_Games:_Sunrise_on_the_Reaping",
+   "method": "formula",
+   "forecast": 183849,
+   "guarded": true,
+   "naive": 129863,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Riemann_hypothesis",
+   "method": "formula",
+   "forecast": 0,
+   "guarded": true,
+   "naive": 102084,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Nvidia",
+   "method": "formula",
+   "forecast": 37382,
+   "guarded": false,
+   "naive": 89488,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Soham_murders",
+   "method": "prior",
+   "forecast": 58360,
+   "guarded": true,
+   "naive": 87021,
+   "lo": 45365.84094914893,
+   "hi": 75717.80397032433
+  },
+  {
+   "article": "The_Body_(TV_series)",
+   "method": "formula",
+   "forecast": 83821,
+   "guarded": true,
+   "naive": 83943,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Miley_Cyrus",
+   "method": "formula",
+   "forecast": 122879,
+   "guarded": false,
+   "naive": 81270,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 62384,
+   "guarded": true,
+   "naive": 80252,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Anthony_Russell_(murderer)",
+   "method": "prior",
+   "forecast": 32429,
+   "guarded": true,
+   "naive": 79697,
+   "lo": 22030.08689899146,
+   "hi": 46792.475128702776
+  },
+  {
+   "article": "Blood",
+   "method": "prior",
+   "forecast": 25116,
+   "guarded": true,
+   "naive": 75798,
+   "lo": 20320.165187426122,
+   "hi": 31766.52362727486
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 52454,
+   "guarded": false,
+   "naive": 75535,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Sam_Bankman-Fried",
+   "method": "formula",
+   "forecast": 72398,
+   "guarded": true,
+   "naive": 65539,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Tom_Jackson_(American_football,_born_1951)",
+   "method": "formula",
+   "forecast": 152333,
+   "guarded": false,
+   "naive": 64851,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Killing_of_JonBenét_Ramsey",
+   "method": "prior",
+   "forecast": 43812,
+   "guarded": true,
+   "naive": 64731,
+   "lo": 28861.90443764566,
+   "hi": 76924.14043990074
+  },
+  {
+   "article": "Eternal_September",
+   "method": "prior",
+   "forecast": 31463,
+   "guarded": true,
+   "naive": 61273,
+   "lo": 16166.61701332482,
+   "hi": 72184.70828499478
+  },
+  {
+   "article": "Mckenna_Grace",
+   "method": "formula",
+   "forecast": 84474,
+   "guarded": true,
+   "naive": 60494,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Miss_Universe_2026",
+   "method": "formula",
+   "forecast": 60707,
+   "guarded": true,
+   "naive": 59793,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Joseph_Zada",
+   "method": "formula",
+   "forecast": 80113,
+   "guarded": true,
+   "naive": 59239,
+   "lo": null,
+   "hi": null
+  }
+ ]
+}
