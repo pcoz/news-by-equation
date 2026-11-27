@@ -778,5 +778,37 @@
    "cache_hits": 1112,
    "errors": 0
   }
+ },
+ {
+  "date": "20261126",
+  "timings": {
+   "fetch": 91.88,
+   "verify": 0.09,
+   "prior": 3.6,
+   "tnn+ppf": 6.18,
+   "score": 0.0,
+   "holant+nrf": 10.44,
+   "nrf-counters": 0.1,
+   "petra": 7.66,
+   "lfc-claims": 0.02,
+   "total": 119.98,
+   "story": 0.0
+  },
+  "warnings": [
+   {
+    "stage": "tnn",
+    "error": "Iowa_lead_azide_detonation: only 3 days of history"
+   },
+   {
+    "stage": "tnn",
+    "error": "Zyri: only 2 days of history"
+   }
+  ],
+  "stories": 24,
+  "fetch": {
+   "requests": 492,
+   "cache_hits": 1019,
+   "errors": 0
+  }
  }
 ]

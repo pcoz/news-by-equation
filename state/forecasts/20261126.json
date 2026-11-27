@@ -1,0 +1,208 @@
+{
+ "issued_by_run": "20261126",
+ "provenance": {
+  "run_date": "20261126",
+  "generator": "nbe.run",
+  "prior_events": 4311
+ },
+ "forecasts": [
+  {
+   "article": "Andy_Taylor_(guitarist)",
+   "method": "prior",
+   "forecast": 105540,
+   "guarded": true,
+   "naive": 318400,
+   "lo": 85430.82974501819,
+   "hi": 133631.93319191164
+  },
+  {
+   "article": "Ramayana:_Part_1",
+   "method": "formula",
+   "forecast": 260556,
+   "guarded": true,
+   "naive": 256714,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Aaron_Rodgers",
+   "method": "prior",
+   "forecast": 91320,
+   "guarded": true,
+   "naive": 183037,
+   "lo": 65822.63311062317,
+   "hi": 126751.37516741709
+  },
+  {
+   "article": "Mike_McCarthy",
+   "method": "prior",
+   "forecast": 73691,
+   "guarded": true,
+   "naive": 178864,
+   "lo": 49807.372259734395,
+   "hi": 104760.71610198113
+  },
+  {
+   "article": "Duran_Duran",
+   "method": "prior",
+   "forecast": 81844,
+   "guarded": true,
+   "naive": 164045,
+   "lo": 58992.84761349987,
+   "hi": 113599.596471418
+  },
+  {
+   "article": "Wu-Tang_Clan",
+   "method": "prior",
+   "forecast": 74943,
+   "guarded": true,
+   "naive": 147607,
+   "lo": 38855.76756700087,
+   "hi": 171815.03130989795
+  },
+  {
+   "article": "Grand_Theft_Auto_VI",
+   "method": "formula",
+   "forecast": 90659,
+   "guarded": true,
+   "naive": 123574,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Ezra_Frech",
+   "method": "prior",
+   "forecast": 49200,
+   "guarded": true,
+   "naive": 119420,
+   "lo": 33254.29597491659,
+   "hi": 69944.34160534588
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 77339,
+   "guarded": false,
+   "naive": 109388,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "John_Tuggle",
+   "method": "prior",
+   "forecast": 49356,
+   "guarded": true,
+   "naive": 101935,
+   "lo": 27513.280254541547,
+   "hi": 111354.13682408333
+  },
+  {
+   "article": "Thanksgiving",
+   "method": "prior",
+   "forecast": 68207,
+   "guarded": true,
+   "naive": 101703,
+   "lo": 53049.45279030709,
+   "hi": 88568.78959198852
+  },
+  {
+   "article": "Miranda_Lambert",
+   "method": "prior",
+   "forecast": 47622,
+   "guarded": true,
+   "naive": 98353,
+   "lo": 26546.46247976578,
+   "hi": 107441.14797723125
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 65486,
+   "guarded": false,
+   "naive": 96770,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Hunger_Games:_Sunrise_on_the_Reaping",
+   "method": "formula",
+   "forecast": 81470,
+   "guarded": true,
+   "naive": 95691,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Martha_Firestone_Ford",
+   "method": "prior",
+   "forecast": 29580,
+   "guarded": true,
+   "naive": 89240,
+   "lo": 23944.243864464268,
+   "hi": 37453.8747426074
+  },
+  {
+   "article": "Blade_Runner_2099",
+   "method": "prior",
+   "forecast": 41170,
+   "guarded": true,
+   "naive": 82520,
+   "lo": 29675.33167768606,
+   "hi": 57144.31223640717
+  },
+  {
+   "article": "Veruschka",
+   "method": "prior",
+   "forecast": 33466,
+   "guarded": true,
+   "naive": 81230,
+   "lo": 22619.715810102785,
+   "hi": 47576.44338136197
+  },
+  {
+   "article": "Thanksgiving_(United_States)",
+   "method": "formula",
+   "forecast": 133867,
+   "guarded": true,
+   "naive": 79016,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Avengers:_Doomsday",
+   "method": "formula",
+   "forecast": 98413,
+   "guarded": true,
+   "naive": 75914,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Joe_Milton",
+   "method": "prior",
+   "forecast": 38420,
+   "guarded": true,
+   "naive": 75672,
+   "lo": 19919.74393714451,
+   "hi": 88082.4557729823
+  },
+  {
+   "article": "John_Madden",
+   "method": "formula",
+   "forecast": 47839,
+   "guarded": false,
+   "naive": 74597,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "John_Taylor_(bass_guitarist)",
+   "method": "prior",
+   "forecast": 36341,
+   "guarded": true,
+   "naive": 72841,
+   "lo": 26194.6296017248,
+   "hi": 50441.69713538699
+  }
+ ]
+}
