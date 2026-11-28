@@ -1,0 +1,208 @@
+{
+ "issued_by_run": "20261127",
+ "provenance": {
+  "run_date": "20261127",
+  "generator": "nbe.run",
+  "prior_events": 4349
+ },
+ "forecasts": [
+  {
+   "article": "Joe_Milton",
+   "method": "prior",
+   "forecast": 160342,
+   "guarded": true,
+   "naive": 385182,
+   "lo": 107717.91396887449,
+   "hi": 226402.48583801818
+  },
+  {
+   "article": "Ramayana:_Part_1",
+   "method": "formula",
+   "forecast": 240373,
+   "guarded": true,
+   "naive": 229774,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Mason_Rudolph_(American_football)",
+   "method": "formula",
+   "forecast": 315824,
+   "guarded": false,
+   "naive": 117924,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Elizabeth_Holmes",
+   "method": "formula",
+   "forecast": 80044,
+   "guarded": false,
+   "naive": 117706,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Aaron_Rodgers",
+   "method": "formula",
+   "forecast": 146805,
+   "guarded": true,
+   "naive": 110558,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Grand_Theft_Auto_VI",
+   "method": "formula",
+   "forecast": 69973,
+   "guarded": true,
+   "naive": 109088,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Hunger_Games:_Sunrise_on_the_Reaping",
+   "method": "formula",
+   "forecast": 85385,
+   "guarded": true,
+   "naive": 96530,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "You_Can_See_Everything",
+   "method": "formula",
+   "forecast": 67126,
+   "guarded": false,
+   "naive": 96240,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Marc_Márquez",
+   "method": "prior",
+   "forecast": 41736,
+   "guarded": true,
+   "naive": 86276,
+   "lo": 23283.64522274608,
+   "hi": 94301.67441860464
+  },
+  {
+   "article": "Mike_McCarthy",
+   "method": "formula",
+   "forecast": 131899,
+   "guarded": false,
+   "naive": 84922,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Alice_Walker",
+   "method": "prior",
+   "forecast": 42352,
+   "guarded": true,
+   "naive": 84827,
+   "lo": 30521.71144825509,
+   "hi": 58771.801486093704
+  },
+  {
+   "article": "Skeleton",
+   "method": "prior",
+   "forecast": 53357,
+   "guarded": true,
+   "naive": 79571,
+   "lo": 41418.92228739003,
+   "hi": 69313.26616787065
+  },
+  {
+   "article": "Blade_Runner_2099",
+   "method": "formula",
+   "forecast": 81075,
+   "guarded": true,
+   "naive": 74709,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Drishyam:_The_Conclusion",
+   "method": "prior",
+   "forecast": 48902,
+   "guarded": true,
+   "naive": 71627,
+   "lo": 32045.079471247987,
+   "hi": 85136.52311951933
+  },
+  {
+   "article": "Andy_Taylor_(guitarist)",
+   "method": "formula",
+   "forecast": 193857,
+   "guarded": false,
+   "naive": 69281,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Mosquito_Bowl",
+   "method": "formula",
+   "forecast": 68083,
+   "guarded": true,
+   "naive": 69072,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Focker-in-Law",
+   "method": "formula",
+   "forecast": 67706,
+   "guarded": true,
+   "naive": 66605,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Riemann_hypothesis",
+   "method": "formula",
+   "forecast": 45113,
+   "guarded": true,
+   "naive": 66235,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "Hunter_Schafer",
+   "method": "formula",
+   "forecast": 46051,
+   "guarded": false,
+   "naive": 65287,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "P._J._Gallagher_(comedian)",
+   "method": "prior",
+   "forecast": 24684,
+   "guarded": true,
+   "naive": 62769,
+   "lo": 7071.286140045941,
+   "hi": 43927.16732250463
+  },
+  {
+   "article": "2026_FIFA_U-17_World_Cup",
+   "method": "formula",
+   "forecast": 101185,
+   "guarded": true,
+   "naive": 62671,
+   "lo": null,
+   "hi": null
+  },
+  {
+   "article": "The_Hunting_Wives",
+   "method": "prior",
+   "forecast": 41930,
+   "guarded": true,
+   "naive": 62529,
+   "lo": 32548.08651026393,
+   "hi": 54468.200980392154
+  }
+ ]
+}
